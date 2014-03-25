@@ -1,4 +1,4 @@
-var app = angular.module('FastMatchDemo', []);
+var app = angular.module('FastMatcherDemo', []);
 
 app.controller('DemoController', function($scope, $http, $q) {
 
