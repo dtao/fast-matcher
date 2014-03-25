@@ -1,0 +1,9 @@
+{
+  "name": "fast-matcher-demo",
+  "version": "1.0.0",
+  "description": "A simple app demonstrating fast-matcher",
+  "devDependencies": {
+    "async": "~0.2.10",
+    "wordnet": "~0.1.2"
+  }
+}
