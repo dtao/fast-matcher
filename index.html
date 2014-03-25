@@ -3,6 +3,7 @@
 
 <head>
     <title>FastMatcher Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css" />
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
     <script src="fastMatcher.js"></script>
@@ -28,7 +29,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="page-header">
                     <h1>FastMatcher Demo</h1>
-                    <p class="lead">
+                    <p class="lead hidden-xs">
                         This demo searches against the <a href="http://wordnet.princeton.edu/">WordNet</a>
                         database, which has almost 150,000 words. The database is fetched on page load and
                         search results are produced immediately as you type.
@@ -40,7 +41,7 @@
                     <input type="text" class="form-control" ng-model="search" />
                 </div>
 
-                <form>
+                <form class="hidden-xs">
                     <fieldset>
                         <legend>Options</legend>
 
