@@ -1,0 +1,21 @@
+{
+  "name": "fast-matcher",
+  "version": "0.1.0",
+  "description": "Find matches fast",
+  "main": "fastMatcher.js",
+  "scripts": {
+    "test": "autodoc -t fastMatcher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtao/fast-matcher"
+  },
+  "author": "Dan Tao <daniel.tao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtao/fast-matcher/issues"
+  },
+  "devDependencies": {
+    "autodoc": "~0.6.1"
+  }
+}
