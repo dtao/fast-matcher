@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="FastMatchDemo">
+
+<head>
+    <title>FastMatch Demo</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="../fastMatcher.js"></script>
+    <script src="demo.js"></script>
+</head>
+
+<body ng-controller="DemoController">
+    <input type="text" ng-model="search" />
+
+    <p>{{(words.length | number) || 'Loading'}} words</p>
+
+    <dl>
+        <div ng-repeat="entry in matchingEntries">
+            <dt>{{entry.term}}</dt>
+            <dd ng-if="entry.definitions.length === 1">
+                <span class="part-of-speech">{{entry.definitions[0].pos}}</span>
+                <span class="definition">{{entry.definitions[0].def}}</span>
+            </dd>
+
+            <dd ng-if="entry.definitions.length > 1">
+                <ol>
+                    <li ng-repeat="definition in entry.definitions">
+                        <dd>{{definition.pos}}: {{definition.def}}</dd>
+                    </li>
+                </ol>
+            </dd>
+        </div>
+    </dl>
+</body>
+
+</html>
