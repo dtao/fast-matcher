@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <div class="page-header">
+                <div class="page-header hidden-xs">
                     <h1>FastMatcher Demo</h1>
                     <p class="lead hidden-xs">
                         This demo searches against the <a href="http://wordnet.princeton.edu/">WordNet</a>
@@ -37,9 +37,14 @@
                     </p>
                 </div>
 
+                <h3 class="visible-xs">FastMatcher</h3>
+
                 <div class="form-group">
-                    <label>Start typing a word.</label>
-                    <input type="text" class="form-control" ng-model="search" />
+                    <input type="text"
+                        class="form-control"
+                        placeholder="Search {{(wordCount | number)}} words"
+                        ng-disabled="!loaded"
+                        ng-model="search" />
                 </div>
 
                 <form class="hidden-xs">
@@ -82,10 +87,6 @@
             </div>
 
             <div class="col-lg-6 col-md-6">
-                <div class="alert alert-{{loaded ? 'success' : 'info'}}">
-                    <p>{{(wordCount | number)}} words loaded</p>
-                </div>
-
                 <dl class="list-group">
                     <div class="list-group-item" ng-repeat="entry in matchingEntries">
                         <dt class="list-group-item-heading">{{entry.term}}</dt>
