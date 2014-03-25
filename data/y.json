@@ -1,0 +1,4773 @@
+[
+  {
+    "term": "y-shaped",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "shaped in the form of the letter Y"
+      }
+    ]
+  },
+  {
+    "term": "y2k compliant",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "prepared to accurately process date and time data between and into the 20th and 21st centuries"
+      }
+    ]
+  },
+  {
+    "term": "yankee",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "used by Southerners for an inhabitant of a northern state in the United States (especially a Union soldier)"
+      },
+      {
+        "pos": "noun",
+        "def": "an American who lives in the North (especially during the American Civil War)"
+      }
+    ]
+  },
+  {
+    "term": "yarn-spinning",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "inclined to tell long and involved stories (often of incredible happenings)"
+      }
+    ]
+  },
+  {
+    "term": "yawning",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "gaping open as if threatening to engulf someone or something; \"the yawning mine shaft\"; \"a yawning abyss\""
+      },
+      {
+        "pos": "noun",
+        "def": "an involuntary intake of breath through a wide open mouth; usually triggered by fatigue or boredom; \"he could not suppress a yawn\"; \"the yawning in the audience told him it was time to stop\"; \"he apologized for his oscitancy\""
+      }
+    ]
+  },
+  {
+    "term": "year-around",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "operating or continuing throughout the year; \"a year-round resort\"; \"a year-round job\""
+      }
+    ]
+  },
+  {
+    "term": "year-end",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "taking place at the close of a fiscal year; \"year-end audit\""
+      },
+      {
+        "pos": "noun",
+        "def": "the end of a calendar year; \"he had to unload the merchandise before the year-end\""
+      }
+    ]
+  },
+  {
+    "term": "year-round",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "operating or continuing throughout the year; \"a year-round resort\"; \"a year-round job\""
+      }
+    ]
+  },
+  {
+    "term": "yearlong",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "lasting through a year; \"attending yearlong courses\""
+      }
+    ]
+  },
+  {
+    "term": "yearly",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "occurring or payable every year; \"an annual trip to Paris\"; \"yearly medical examinations\"; \"annual (or yearly) income\""
+      },
+      {
+        "pos": "adverb",
+        "def": "without missing a year; \"they travel to China annually\""
+      },
+      {
+        "pos": "noun",
+        "def": "a reference book that is published regularly once every year"
+      }
+    ]
+  },
+  {
+    "term": "yearned-for",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "greatly desired"
+      }
+    ]
+  },
+  {
+    "term": "yeastlike",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or resembling or containing yeast"
+      }
+    ]
+  },
+  {
+    "term": "yeasty",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or resembling or containing yeast"
+      }
+    ]
+  },
+  {
+    "term": "yeatsian",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "in the manner of William Butler Yeats"
+      }
+    ]
+  },
+  {
+    "term": "yelled",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "in a vehement outcry; \"his shouted words of encouragement could be heard over the crowd noises\""
+      }
+    ]
+  },
+  {
+    "term": "yellow",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of the color intermediate between green and orange in the color spectrum; of something resembling the color of an egg yolk"
+      },
+      {
+        "pos": "noun",
+        "def": "yellow color or pigment; the chromatic color resembling the hue of sunflowers or ripe lemons"
+      },
+      {
+        "pos": "verb",
+        "def": "turn yellow; \"The pages of the book began to yellow\""
+      }
+    ]
+  },
+  {
+    "term": "yellow-banded",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "having yellow bands"
+      }
+    ]
+  },
+  {
+    "term": "yellow-beige",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of beige tinged with yellow;"
+      }
+    ]
+  },
+  {
+    "term": "yellow-bellied",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "easily frightened"
+      }
+    ]
+  },
+  {
+    "term": "yellow-brown",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of a medium to dark brownish yellow color"
+      }
+    ]
+  },
+  {
+    "term": "yellow-gray",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of grey tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow-green",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of a color midway between yellow and green"
+      }
+    ]
+  },
+  {
+    "term": "yellow-grey",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of grey tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow-marked",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "having yellow marks"
+      }
+    ]
+  },
+  {
+    "term": "yellow-orange",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of orange tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow-spotted",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "having yellow spots"
+      }
+    ]
+  },
+  {
+    "term": "yellow-striped",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "having yellow stripes"
+      }
+    ]
+  },
+  {
+    "term": "yellow-tinged",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of a color tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow-tipped",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of a flower tipped with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow-white",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of a white tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellowed",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "changed to a yellowish color by age; \"yellowed parchment\""
+      }
+    ]
+  },
+  {
+    "term": "yellowish",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of the color intermediate between green and orange in the color spectrum; of something resembling the color of an egg yolk"
+      }
+    ]
+  },
+  {
+    "term": "yellowish-beige",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of beige tinged with yellow;"
+      }
+    ]
+  },
+  {
+    "term": "yellowish-gray",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of grey tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellowish-grey",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of grey tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellowish-orange",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of orange tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellowish-white",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "of a white tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yemeni",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or relating to or characteristic of Yemen or its inhabitants; \"Yemeni mountains\""
+      },
+      {
+        "pos": "noun",
+        "def": "a native or inhabitant of Yemen"
+      }
+    ]
+  },
+  {
+    "term": "yielding",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "inclined to yield to argument or influence or control; \"a timid yielding person\""
+      },
+      {
+        "pos": "noun",
+        "def": "a verbal act of admitting defeat"
+      }
+    ]
+  },
+  {
+    "term": "yogic",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or relating to yoga; \"yogic exercises\""
+      }
+    ]
+  },
+  {
+    "term": "yogistic",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or relating to yoga; \"yogic exercises\""
+      }
+    ]
+  },
+  {
+    "term": "yokel-like",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "stupid and ignorant like proverbial rural inhabitants; \"the boy's empty yokel-like expression\""
+      }
+    ]
+  },
+  {
+    "term": "yokelish",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "(of persons) lacking in refinement or grace"
+      }
+    ]
+  },
+  {
+    "term": "yon",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "distant but within sight (`yon' is dialectal); \"yonder valley\"; \"the hills yonder\"; \"what is yon place?\""
+      },
+      {
+        "pos": "adverb",
+        "def": "at or in an indicated (usually distant) place (`yon' is archaic and dialectal); \"the house yonder\"; \"scattered here and yon\"- Calder Willingham"
+      }
+    ]
+  },
+  {
+    "term": "yonder",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "distant but within sight (`yon' is dialectal); \"yonder valley\"; \"the hills yonder\"; \"what is yon place?\""
+      },
+      {
+        "pos": "adverb",
+        "def": "at or in an indicated (usually distant) place (`yon' is archaic and dialectal); \"the house yonder\"; \"scattered here and yon\"- Calder Willingham"
+      }
+    ]
+  },
+  {
+    "term": "young",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "(used of living things especially persons) in an early period of life or development or growth; \"young people\""
+      },
+      {
+        "pos": "noun",
+        "def": "any immature animal"
+      }
+    ]
+  },
+  {
+    "term": "young-bearing",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "capable of producing eggs and bearing offspring"
+      }
+    ]
+  },
+  {
+    "term": "young-begetting",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "capable of fathering offspring"
+      }
+    ]
+  },
+  {
+    "term": "younger",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "used of the younger of two persons of the same name especially used to distinguish a son from his father; \"John Junior\"; \"John Smith, Jr.\""
+      }
+    ]
+  },
+  {
+    "term": "youngish",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "somewhat young"
+      }
+    ]
+  },
+  {
+    "term": "youthful",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "suggestive of youth; vigorous and fresh; \"he is young for his age\""
+      }
+    ]
+  },
+  {
+    "term": "yucky",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "highly offensive; arousing aversion or disgust; \"a disgusting smell\"; \"distasteful language\"; \"a loathsome disease\"; \"the idea of eating meat is repellent to me\"; \"revolting food\"; \"a wicked stench\""
+      }
+    ]
+  },
+  {
+    "term": "yugoslav",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or relating to or characteristic of the former country of Yugoslavia or its people or languages; \"Yugoslavian wine\""
+      },
+      {
+        "pos": "noun",
+        "def": "a native or inhabitant of Yugoslavia"
+      }
+    ]
+  },
+  {
+    "term": "yugoslavian",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or relating to or characteristic of the former country of Yugoslavia or its people or languages; \"Yugoslavian wine\""
+      },
+      {
+        "pos": "noun",
+        "def": "a native or inhabitant of Yugoslavia"
+      }
+    ]
+  },
+  {
+    "term": "yuman",
+    "definitions": [
+      {
+        "pos": "adjective",
+        "def": "of or relating to the language or culture of the Yuma people"
+      },
+      {
+        "pos": "noun",
+        "def": "a group of language of the Hokan family in Arizona and California and Mexico"
+      }
+    ]
+  },
+  {
+    "term": "yummy",
+    "definitions": [
+      {
+        "pos": "adjective satellite",
+        "def": "extremely pleasing to the sense of taste"
+      }
+    ]
+  },
+  {
+    "term": "yea",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "not only so, but; \"I therein do rejoice, yea, and will rejoice\""
+      },
+      {
+        "pos": "noun",
+        "def": "an affirmative; \"The yeas have it\""
+      }
+    ]
+  },
+  {
+    "term": "yeah",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "not only so, but; \"I therein do rejoice, yea, and will rejoice\""
+      }
+    ]
+  },
+  {
+    "term": "yearningly",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "in a yearning manner; \"he spent the rest of the act gazing longingly over my right shoulder at the illuminated word `Exit'\""
+      }
+    ]
+  },
+  {
+    "term": "yesterday",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "on the day preceding today; \"yesterday the weather was beautiful\""
+      },
+      {
+        "pos": "noun",
+        "def": "the day immediately before today; \"it was in yesterday's newspapers\""
+      }
+    ]
+  },
+  {
+    "term": "yet",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "up to the present time; \"I have yet to see the results\"; \"details are yet to be worked out\""
+      }
+    ]
+  },
+  {
+    "term": "yieldingly",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "in an obedient manner; \"obediently she slipped off her right shoe and stocking\""
+      }
+    ]
+  },
+  {
+    "term": "you bet",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "an expression of emphatic agreement"
+      }
+    ]
+  },
+  {
+    "term": "you said it",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "an expression of emphatic agreement"
+      }
+    ]
+  },
+  {
+    "term": "youthfully",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "in a youthful manner; \"he is still youthfully enthusiastic\""
+      }
+    ]
+  },
+  {
+    "term": "y",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a silvery metallic element that is common in rare-earth minerals; used in magnesium and aluminum alloys"
+      }
+    ]
+  },
+  {
+    "term": "y-axis",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the vertical axis in a plane coordinate system"
+      }
+    ]
+  },
+  {
+    "term": "y-linked gene",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a gene located on a Y chromosome"
+      }
+    ]
+  },
+  {
+    "term": "y2k",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the year 2000 in the Gregorian calendar"
+      }
+    ]
+  },
+  {
+    "term": "y chromosome",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the sex chromosome that is carried by men; \"human males normally have one X chromosome and one Y chromosome\""
+      }
+    ]
+  },
+  {
+    "term": "yacca",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "West Indian evergreen with medium to long leaves"
+      }
+    ]
+  },
+  {
+    "term": "yacca podocarp",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "West Indian evergreen with medium to long leaves"
+      }
+    ]
+  },
+  {
+    "term": "yacht",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an expensive vessel propelled by sail or power and used for cruising or racing"
+      },
+      {
+        "pos": "verb",
+        "def": "travel in a yacht"
+      }
+    ]
+  },
+  {
+    "term": "yacht chair",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a light folding armchair for outdoor use"
+      }
+    ]
+  },
+  {
+    "term": "yacht club",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "club that promotes and supports yachting and boating"
+      }
+    ]
+  },
+  {
+    "term": "yacht race",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a race between crews of people in yachts"
+      }
+    ]
+  },
+  {
+    "term": "yachting",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "water travel for pleasure"
+      }
+    ]
+  },
+  {
+    "term": "yachting cap",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a cap with a flat circular top and a visor"
+      }
+    ]
+  },
+  {
+    "term": "yachtsman",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person who owns or sails a yacht"
+      }
+    ]
+  },
+  {
+    "term": "yachtswoman",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person who owns or sails a yacht"
+      }
+    ]
+  },
+  {
+    "term": "yack",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "noisy talk"
+      },
+      {
+        "pos": "verb",
+        "def": "talk incessantly and tiresomely"
+      }
+    ]
+  },
+  {
+    "term": "yafo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a port in western Israel on the Mediterranean; incorporated into Tel Aviv in 1950"
+      }
+    ]
+  },
+  {
+    "term": "yagi",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sharply directional antenna"
+      }
+    ]
+  },
+  {
+    "term": "yagi aerial",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sharply directional antenna"
+      }
+    ]
+  },
+  {
+    "term": "yahi",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of an extinct North American Indian people who lived in northern California"
+      }
+    ]
+  },
+  {
+    "term": "yahoo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person who is not very intelligent or interested in culture"
+      }
+    ]
+  },
+  {
+    "term": "yahve",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH"
+      }
+    ]
+  },
+  {
+    "term": "yahveh",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH"
+      }
+    ]
+  },
+  {
+    "term": "yahwe",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH"
+      }
+    ]
+  },
+  {
+    "term": "yahweh",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH"
+      }
+    ]
+  },
+  {
+    "term": "yajur-veda",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a collection of sacrificial formulas and prayers"
+      }
+    ]
+  },
+  {
+    "term": "yak",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "noisy talk"
+      },
+      {
+        "pos": "verb",
+        "def": "talk profusely; \"she was yakking away about her grandchildren\""
+      }
+    ]
+  },
+  {
+    "term": "yak's milk",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the milk of a yak"
+      }
+    ]
+  },
+  {
+    "term": "yak butter",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "butter made from yaks' milk"
+      }
+    ]
+  },
+  {
+    "term": "yakety-yak",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "noisy talk"
+      }
+    ]
+  },
+  {
+    "term": "yakima",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a town in south central Washington"
+      }
+    ]
+  },
+  {
+    "term": "yakut",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of a Turkic people of northeastern Siberia (mainly in the Lena river basin)"
+      }
+    ]
+  },
+  {
+    "term": "yakuza",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Japanese gangster"
+      }
+    ]
+  },
+  {
+    "term": "yale",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a university in Connecticut"
+      }
+    ]
+  },
+  {
+    "term": "yale university",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a university in Connecticut"
+      }
+    ]
+  },
+  {
+    "term": "yalta",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a resort city in Crimea in the southern Ukraine on the Black Sea; site of the Allied conference between Roosevelt, Stalin, and Churchill in February 1945"
+      }
+    ]
+  },
+  {
+    "term": "yalta conference",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a conference held in Yalta in February 1945 where Roosevelt, Stalin, and Churchill planned the final stages of World War II and agreed to the territorial division of Europe"
+      }
+    ]
+  },
+  {
+    "term": "yaltopya",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Ethiopia is a republic in northeastern Africa on the Red Sea; formerly called Abyssinia"
+      }
+    ]
+  },
+  {
+    "term": "yalu",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "river in eastern Asia; rises in North Korea and flows southwest to Korea Bay (forming part of the border between North Korea and China)"
+      }
+    ]
+  },
+  {
+    "term": "yalu river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "river in eastern Asia; rises in North Korea and flows southwest to Korea Bay (forming part of the border between North Korea and China)"
+      }
+    ]
+  },
+  {
+    "term": "yam",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "edible tuber of any of several yams"
+      }
+    ]
+  },
+  {
+    "term": "yam bean",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "twining plant of Amazon basin having large edible roots"
+      }
+    ]
+  },
+  {
+    "term": "yam family",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yams"
+      }
+    ]
+  },
+  {
+    "term": "yam plant",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of a number of tropical vines of the genus Dioscorea many having edible tuberous roots"
+      }
+    ]
+  },
+  {
+    "term": "yama",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Hindu god of death and lord of the underworld"
+      }
+    ]
+  },
+  {
+    "term": "yamaltu",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a three-tone Chadic language"
+      }
+    ]
+  },
+  {
+    "term": "yamamoto",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Japanese admiral who planned the attack on Pearl Harbor in 1941 (1884-1943)"
+      }
+    ]
+  },
+  {
+    "term": "yamani",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Saudi Arabian minister of petroleum who was a central figure in the creation of OPEC (born in 1930)"
+      }
+    ]
+  },
+  {
+    "term": "yamoussukro",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "capital of the Ivory Coast"
+      }
+    ]
+  },
+  {
+    "term": "yana",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of an extinct North American Indian people who lived in northern California"
+      }
+    ]
+  },
+  {
+    "term": "yanan",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a language group of the Hokan family"
+      }
+    ]
+  },
+  {
+    "term": "yang",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the bright positive masculine principle in Chinese dualistic cosmology; \"yin and yang together produce everything that comes into existence\""
+      }
+    ]
+  },
+  {
+    "term": "yang chen ning",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States physicist (born in China) who collaborated with Tsung Dao Lee in disproving the principle of conservation of parity (born in 1922)"
+      }
+    ]
+  },
+  {
+    "term": "yangon",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the capital and largest city of Myanmar; located in the south near the Irrawaddy river delta"
+      }
+    ]
+  },
+  {
+    "term": "yangtze",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the longest river of Asia; flows eastward from Tibet into the East China Sea near Shanghai"
+      }
+    ]
+  },
+  {
+    "term": "yangtze kiang",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the longest river of Asia; flows eastward from Tibet into the East China Sea near Shanghai"
+      }
+    ]
+  },
+  {
+    "term": "yangtze river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the longest river of Asia; flows eastward from Tibet into the East China Sea near Shanghai"
+      }
+    ]
+  },
+  {
+    "term": "yank",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an American who lives in the North (especially during the American Civil War)"
+      },
+      {
+        "pos": "verb",
+        "def": "pull, or move with a sudden movement; \"He turned the handle and jerked the door open\""
+      }
+    ]
+  },
+  {
+    "term": "yankee-doodle",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an American (especially to non-Americans)"
+      }
+    ]
+  },
+  {
+    "term": "yankee corn",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "corn having kernels with a hard outer layer enclosing the soft endosperm"
+      }
+    ]
+  },
+  {
+    "term": "yanker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "someone who gives a strong sudden pull"
+      }
+    ]
+  },
+  {
+    "term": "yanquapin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "water lily of eastern North America having pale yellow blossoms and edible globular nutlike seeds"
+      }
+    ]
+  },
+  {
+    "term": "yaounde",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the capital of Cameroon"
+      }
+    ]
+  },
+  {
+    "term": "yap",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "informal terms for the mouth"
+      },
+      {
+        "pos": "verb",
+        "def": "bark in a high-pitched tone; \"the puppies yelped\""
+      }
+    ]
+  },
+  {
+    "term": "yard",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of length equal to 3 feet; defined as 91.44 centimeters; originally taken to be the average length of a stride"
+      }
+    ]
+  },
+  {
+    "term": "yard-long bean",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "South American bean having very long succulent pods"
+      }
+    ]
+  },
+  {
+    "term": "yard bird",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a military recruit who is assigned menial tasks"
+      }
+    ]
+  },
+  {
+    "term": "yard donkey",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a winch (or system of winches) powered by an engine and used to haul logs from a stump to a landing or to a skid road"
+      }
+    ]
+  },
+  {
+    "term": "yard goods",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "merchandise in the form of fabrics sold by the yard"
+      }
+    ]
+  },
+  {
+    "term": "yard grass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "coarse annual grass having fingerlike spikes of flowers; native to Old World tropics; a naturalized weed elsewhere"
+      }
+    ]
+  },
+  {
+    "term": "yard line",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "in football; line parallel to the goal lines indicating position on the field"
+      }
+    ]
+  },
+  {
+    "term": "yard marker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(football) a marker indicating the yard line"
+      }
+    ]
+  },
+  {
+    "term": "yard measure",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a ruler or tape that is three feet long"
+      }
+    ]
+  },
+  {
+    "term": "yard sale",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an outdoor sale of used personal or household items held on the seller's premises"
+      }
+    ]
+  },
+  {
+    "term": "yardage",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "distance measured in the aggregate number of yards; \"what is the yardage of this golf course?\""
+      }
+    ]
+  },
+  {
+    "term": "yardarm",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "either end of the yard of a square-rigged ship"
+      }
+    ]
+  },
+  {
+    "term": "yardbird",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a military recruit who is assigned menial tasks"
+      }
+    ]
+  },
+  {
+    "term": "yardbird parker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States saxophonist and leader of the bop style of jazz (1920-1955)"
+      }
+    ]
+  },
+  {
+    "term": "yarder",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(used only in combinations) the height or length of something in yards; \"the golfer hit a 300-yarder to the green\""
+      }
+    ]
+  },
+  {
+    "term": "yardgrass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "coarse annual grass having fingerlike spikes of flowers; native to Old World tropics; a naturalized weed elsewhere"
+      }
+    ]
+  },
+  {
+    "term": "yardie",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "member of an international gang of Jamaican criminals who sell drugs and violence; \"A much publicized raid on a yardie stronghold had first been simulated at Riot City\""
+      }
+    ]
+  },
+  {
+    "term": "yardman",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "worker in a railway yard"
+      }
+    ]
+  },
+  {
+    "term": "yardmaster",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a railroad employer who is in charge of a railway yard"
+      }
+    ]
+  },
+  {
+    "term": "yardstick",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a measure or standard used for comparison; \"on what kind of yardstick is he basing his judgment?\""
+      }
+    ]
+  },
+  {
+    "term": "yarmelke",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a skullcap worn by religious Jews (especially at prayer)"
+      }
+    ]
+  },
+  {
+    "term": "yarmulka",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a skullcap worn by religious Jews (especially at prayer)"
+      }
+    ]
+  },
+  {
+    "term": "yarmulke",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a skullcap worn by religious Jews (especially at prayer)"
+      }
+    ]
+  },
+  {
+    "term": "yarn",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the act of giving an account describing incidents or a course of events; \"his narration was hesitant\""
+      },
+      {
+        "pos": "verb",
+        "def": "tell or spin a yarn"
+      }
+    ]
+  },
+  {
+    "term": "yarrow",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "ubiquitous strong-scented mat-forming Eurasian herb of wasteland, hedgerow or pasture having narrow serrate leaves and small usually white florets; widely naturalized in North America"
+      }
+    ]
+  },
+  {
+    "term": "yashmac",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the face veil worn by Muslim women"
+      }
+    ]
+  },
+  {
+    "term": "yashmak",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the face veil worn by Muslim women"
+      }
+    ]
+  },
+  {
+    "term": "yasser arafat",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Palestinian statesman who was chairman of the Palestine Liberation Organization (1929-2004)"
+      }
+    ]
+  },
+  {
+    "term": "yastrzemski",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States baseball player (born in 1939)"
+      }
+    ]
+  },
+  {
+    "term": "yataghan",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a long Turkish knife with a curved blade having a single edge"
+      }
+    ]
+  },
+  {
+    "term": "yatobyo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a highly infectious disease of rodents (especially rabbits and squirrels) and sometimes transmitted to humans by ticks or flies or by handling infected animals"
+      }
+    ]
+  },
+  {
+    "term": "yaupon holly",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an evergreen shrub"
+      }
+    ]
+  },
+  {
+    "term": "yautia",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tropical American aroid having edible tubers that are cooked and eaten like yams or potatoes"
+      }
+    ]
+  },
+  {
+    "term": "yavapai",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of a North American Indian people of central Arizona"
+      }
+    ]
+  },
+  {
+    "term": "yaw",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an erratic deflection from an intended course"
+      },
+      {
+        "pos": "verb",
+        "def": "be wide open; \"the deep gaping canyon\""
+      }
+    ]
+  },
+  {
+    "term": "yawl",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a ship's small boat (usually rowed by 4 or 6 oars)"
+      },
+      {
+        "pos": "verb",
+        "def": "emit long loud cries; \"wail in self-pity\"; \"howl with sorrow\""
+      }
+    ]
+  },
+  {
+    "term": "yawn",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an involuntary intake of breath through a wide open mouth; usually triggered by fatigue or boredom; \"he could not suppress a yawn\"; \"the yawning in the audience told him it was time to stop\"; \"he apologized for his oscitancy\""
+      },
+      {
+        "pos": "verb",
+        "def": "utter a yawn, as from lack of oxygen or when one is tired; \"The child yawned during the long performance\""
+      }
+    ]
+  },
+  {
+    "term": "yawner",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person who yawns"
+      }
+    ]
+  },
+  {
+    "term": "yaws",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an infectious tropical disease resembling syphilis in its early stages; marked by red skin eruptions and ulcerating lesions"
+      }
+    ]
+  },
+  {
+    "term": "yay",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a branch of the Tai languages"
+      }
+    ]
+  },
+  {
+    "term": "yazoo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a river that rises in west central Mississippi and flows southwest to empty into the Mississippi River above Vicksburg"
+      }
+    ]
+  },
+  {
+    "term": "yazoo river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a river that rises in west central Mississippi and flows southwest to empty into the Mississippi River above Vicksburg"
+      }
+    ]
+  },
+  {
+    "term": "yb",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a soft silvery metallic element; a rare earth of the lanthanide series; it occurs in gadolinite and monazite and xenotime"
+      }
+    ]
+  },
+  {
+    "term": "ybit",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1000 zettabits or 10^24 bits"
+      }
+    ]
+  },
+  {
+    "term": "year",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a period of time containing 365 (or 366) days; \"she is 4 years old\"; \"in the year 1920\""
+      }
+    ]
+  },
+  {
+    "term": "year dot",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "as long ago as anyone can remember; \"he has been a conductor since the year dot\""
+      }
+    ]
+  },
+  {
+    "term": "year of grace",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any year of the Christian era"
+      }
+    ]
+  },
+  {
+    "term": "yearbook",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a book published annually by the graduating class of a high school or college usually containing photographs of faculty and graduating students"
+      }
+    ]
+  },
+  {
+    "term": "yearling",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young child"
+      }
+    ]
+  },
+  {
+    "term": "yearner",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person with a strong desire for something; \"a longer for money\"; \"a thirster after blood\"; \"a yearner for knowledge\""
+      }
+    ]
+  },
+  {
+    "term": "yearning",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "prolonged unfulfilled desire or need"
+      }
+    ]
+  },
+  {
+    "term": "years",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a late time of life; \"old age is not for sissies\"; \"he's showing his years\"; \"age hasn't slowed him down at all\"; \"a beard white with eld\"; \"on the brink of geezerhood\""
+      }
+    ]
+  },
+  {
+    "term": "yeast",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a commercial leavening agent containing yeast cells; used to raise the dough in making bread and for fermenting beer or whiskey"
+      }
+    ]
+  },
+  {
+    "term": "yeast cake",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "small cake of compressed moist yeast"
+      }
+    ]
+  },
+  {
+    "term": "yeats",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Irish poet and dramatist (1865-1939)"
+      }
+    ]
+  },
+  {
+    "term": "yeddo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the capital and largest city of Japan; the economic and cultural center of Japan"
+      }
+    ]
+  },
+  {
+    "term": "yedo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the capital and largest city of Japan; the economic and cultural center of Japan"
+      }
+    ]
+  },
+  {
+    "term": "yehudi menuhin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "British violinist (born in the United States) who began his career as a child prodigy in the 1920s (1916-1999)"
+      }
+    ]
+  },
+  {
+    "term": "yekaterinoslav",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "city in east central Ukraine on the Dnieper River; center of metallurgical industry"
+      }
+    ]
+  },
+  {
+    "term": "yell",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a loud utterance; often in protest or opposition; \"the speaker was interrupted by loud cries from the rear of the audience\""
+      },
+      {
+        "pos": "verb",
+        "def": "utter a sudden loud cry; \"she cried with pain when the doctor inserted the needle\"; \"I yelled to her from the window but she couldn't hear me\""
+      }
+    ]
+  },
+  {
+    "term": "yeller",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "someone who communicates vocally in a very loud voice"
+      }
+    ]
+  },
+  {
+    "term": "yelling",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "uttering a loud inarticulate cry as of pain or excitement"
+      }
+    ]
+  },
+  {
+    "term": "yellow-bellied sapsucker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "eastern North American sapsucker having a pale yellow abdomen"
+      }
+    ]
+  },
+  {
+    "term": "yellow-bellied terrapin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "freshwater turtle of United States and South America; frequently raised commercially; some young sold as pets"
+      }
+    ]
+  },
+  {
+    "term": "yellow-blindness",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a form of dichromacy characterized by lowered sensitivity to yellow light; so rare that its existence has been questioned"
+      }
+    ]
+  },
+  {
+    "term": "yellow-blue color blindness",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "confusion of yellow and blue"
+      }
+    ]
+  },
+  {
+    "term": "yellow-blue dichromacy",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "confusion of yellow and blue"
+      }
+    ]
+  },
+  {
+    "term": "yellow-breasted bunting",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common in Russia and Siberia"
+      }
+    ]
+  },
+  {
+    "term": "yellow-breasted chat",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "American warbler noted for imitating songs of other birds"
+      }
+    ]
+  },
+  {
+    "term": "yellow-crowned night heron",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "North American night heron"
+      }
+    ]
+  },
+  {
+    "term": "yellow-dog contract",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a labor contract (now illegal) whereby the employee agrees not to join a trade union"
+      }
+    ]
+  },
+  {
+    "term": "yellow-eyed grass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of several rushlike plants, especially of the pine barrens of southern United States"
+      }
+    ]
+  },
+  {
+    "term": "yellow-eyed grass family",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "plants of tropical to temperate regions; usually in wet places"
+      }
+    ]
+  },
+  {
+    "term": "yellow-fever mosquito",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "mosquito that transmits yellow fever and dengue"
+      }
+    ]
+  },
+  {
+    "term": "yellow-green algae",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any alga of the division Chrysophyta with its chlorophyll masked by yellow pigment"
+      }
+    ]
+  },
+  {
+    "term": "yellow-leaf sickle pine",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a rain forest tree or shrub of New Caledonia having a conic crown and pale green sickle-shaped leaves; host species for the rare parasite yew"
+      }
+    ]
+  },
+  {
+    "term": "yellow-shafted flicker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "large flicker of eastern North America with a red neck and yellow undersurface to wings and tail"
+      }
+    ]
+  },
+  {
+    "term": "yellow-throated marten",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "large yellow and black marten of southern China and Burma"
+      }
+    ]
+  },
+  {
+    "term": "yellow adder's tongue",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "eastern North American dogtooth having solitary yellow flowers marked with brown or purple and spotted interiors"
+      }
+    ]
+  },
+  {
+    "term": "yellow ageratum",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "shrub of southwestern Mediterranean region having yellow daisylike flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow asphodel",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "asphodel with leafy stem and fragrant yellow flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow avens",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "hairy yellow-flowered plant of eastern Asia and North America"
+      }
+    ]
+  },
+  {
+    "term": "yellow bachelor's button",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "bog plant of pine barrens of southeastern United States having spikes of irregular yellow-orange flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow bass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "North American freshwater bass resembling the larger marine striped bass"
+      }
+    ]
+  },
+  {
+    "term": "yellow bean",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "snap beans with yellow pods"
+      }
+    ]
+  },
+  {
+    "term": "yellow bedstraw",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common yellow-flowered perennial bedstraw; North America and Europe and Asia"
+      }
+    ]
+  },
+  {
+    "term": "yellow bells",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "viscid herb of arid or desert habitats of southwestern United States having pendulous yellow flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow berry",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "fruit of various buckthorns yielding dyes or pigments"
+      }
+    ]
+  },
+  {
+    "term": "yellow bile",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a humor that was once believed to be secreted by the liver and to cause irritability and anger"
+      }
+    ]
+  },
+  {
+    "term": "yellow birch",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tree of eastern North America with thin lustrous yellow or grey bark"
+      }
+    ]
+  },
+  {
+    "term": "yellow bone marrow",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "bone marrow that is yellow with fat; found at the ends of long bones in adults"
+      }
+    ]
+  },
+  {
+    "term": "yellow bristle grass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common weedy and bristly grass found in nearly all temperate areas"
+      }
+    ]
+  },
+  {
+    "term": "yellow bristlegrass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common weedy and bristly grass found in nearly all temperate areas"
+      }
+    ]
+  },
+  {
+    "term": "yellow bugle",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "low-growing annual with yellow flowers dotted red; faintly aromatic of pine resin; Europe, British Isles and North Africa"
+      }
+    ]
+  },
+  {
+    "term": "yellow bunting",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European bunting the male being bright yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow cattley guava",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "small tropical shrubby tree bearing small yellowish fruit"
+      }
+    ]
+  },
+  {
+    "term": "yellow cedar",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tall evergreen of the Pacific coast of North America often cultivated for ornament"
+      }
+    ]
+  },
+  {
+    "term": "yellow chamomile",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Eurasian perennial herb with hairy divided leaves and yellow flowers; naturalized in North America"
+      }
+    ]
+  },
+  {
+    "term": "yellow chestnut oak",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "medium-sized deciduous tree of the eastern United States that yields a strong durable wood"
+      }
+    ]
+  },
+  {
+    "term": "yellow cleavers",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common yellow-flowered perennial bedstraw; North America and Europe and Asia"
+      }
+    ]
+  },
+  {
+    "term": "yellow clintonia",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common woodland herb of temperate North America having yellow nodding flowers and small round blue fruits"
+      }
+    ]
+  },
+  {
+    "term": "yellow colicroot",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "colicroot with yellow-bracted racemose flowers; smaller than Aletris farinosa; southeastern United States"
+      }
+    ]
+  },
+  {
+    "term": "yellow cypress",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tall evergreen of the Pacific coast of North America often cultivated for ornament"
+      }
+    ]
+  },
+  {
+    "term": "yellow delicious",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sweet eating apple with yellow skin"
+      }
+    ]
+  },
+  {
+    "term": "yellow dock",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European dock with broad obtuse leaves and bitter rootstock common as a weed in North America"
+      }
+    ]
+  },
+  {
+    "term": "yellow dwarf",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of several virus diseases of plants characterized by stunting and yellowing of the leaves"
+      }
+    ]
+  },
+  {
+    "term": "yellow dwarf of potato",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the yellow dwarf disease of potato plants"
+      }
+    ]
+  },
+  {
+    "term": "yellow fever",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "caused by a flavivirus transmitted by a mosquito"
+      }
+    ]
+  },
+  {
+    "term": "yellow flag",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common yellow-flowered iris of Europe and North Africa, naturalized in United States and often cultivated"
+      }
+    ]
+  },
+  {
+    "term": "yellow foxglove",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European yellow-flowered foxglove"
+      }
+    ]
+  },
+  {
+    "term": "yellow foxtail",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common weedy and bristly grass found in nearly all temperate areas"
+      }
+    ]
+  },
+  {
+    "term": "yellow giant hyssop",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "erect perennial with stout stems and yellow-green flowers; southern Canada and southeastern United States"
+      }
+    ]
+  },
+  {
+    "term": "yellow globe lily",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "globe lily having open branched clusters of clear yellow egg-shaped flowers; northern California"
+      }
+    ]
+  },
+  {
+    "term": "yellow goatfish",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "schooling goatfish; greyish with yellow stripe"
+      }
+    ]
+  },
+  {
+    "term": "yellow granadilla",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "West Indian passionflower; cultivated for its yellow edible fruit"
+      }
+    ]
+  },
+  {
+    "term": "yellow green",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a shade of green tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellow gurnard",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a kind of gurnard"
+      }
+    ]
+  },
+  {
+    "term": "yellow hawkweed",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European hawkweed introduced into northeastern United States; locally troublesome weeds"
+      }
+    ]
+  },
+  {
+    "term": "yellow henbane",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "found on sea beaches from Virginia to South America having greenish-yellow flowers and orange or yellow berries"
+      }
+    ]
+  },
+  {
+    "term": "yellow honeysuckle",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "climbing deciduous shrub with fragrant yellow (later orange) flowers in terminal whorls; southeastern United States"
+      }
+    ]
+  },
+  {
+    "term": "yellow horned poppy",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yellow-flowered Eurasian glaucous herb naturalized in along sandy shores in eastern North America"
+      }
+    ]
+  },
+  {
+    "term": "yellow hornet",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "small yellow-marked social wasp commonly nesting in the ground"
+      }
+    ]
+  },
+  {
+    "term": "yellow iris",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common yellow-flowered iris of Europe and North Africa, naturalized in United States and often cultivated"
+      }
+    ]
+  },
+  {
+    "term": "yellow ironweed",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "perennial herb with showy yellow flowers; the eastern United States"
+      }
+    ]
+  },
+  {
+    "term": "yellow jacaranda",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "semi-evergreen South American tree with odd-pinnate leaves and golden yellow flowers cultivated as an ornamental"
+      }
+    ]
+  },
+  {
+    "term": "yellow jack",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "caused by a flavivirus transmitted by a mosquito"
+      }
+    ]
+  },
+  {
+    "term": "yellow jacket",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a barbiturate (trade name Nembutal) used as a sedative and hypnotic and antispasmodic"
+      }
+    ]
+  },
+  {
+    "term": "yellow jasmine",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "poisonous woody evergreen vine of southeastern United States having fragrant yellow funnel-shaped flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow jessamine",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "poisonous woody evergreen vine of southeastern United States having fragrant yellow funnel-shaped flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow journalism",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "sensationalist journalism"
+      }
+    ]
+  },
+  {
+    "term": "yellow lady's slipper",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "maroon to purple-brown orchid with yellow lip; Europe, North America and Japan"
+      }
+    ]
+  },
+  {
+    "term": "yellow lady-slipper",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "maroon to purple-brown orchid with yellow lip; Europe, North America and Japan"
+      }
+    ]
+  },
+  {
+    "term": "yellow light",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the signal to proceed with caution"
+      }
+    ]
+  },
+  {
+    "term": "yellow locust",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "large thorny tree of eastern and central United States having pinnately compound leaves and drooping racemes of white flowers; widely naturalized in many varieties in temperate regions"
+      }
+    ]
+  },
+  {
+    "term": "yellow loosestrife",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "frequently considered a weed; Europe and Asia"
+      }
+    ]
+  },
+  {
+    "term": "yellow lupine",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yellow-flowered European lupine cultivated for forage"
+      }
+    ]
+  },
+  {
+    "term": "yellow man",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "offensive term for an Asian man"
+      }
+    ]
+  },
+  {
+    "term": "yellow mariposa tulip",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "mariposa having clusters of a few large deep yellow bell-shaped flowers atop slender stems; California coastal ranges"
+      }
+    ]
+  },
+  {
+    "term": "yellow marrow",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "bone marrow that is yellow with fat; found at the ends of long bones in adults"
+      }
+    ]
+  },
+  {
+    "term": "yellow metal",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a brass that has more zinc and is stronger than alpha brass; used in making castings and hot-worked products"
+      }
+    ]
+  },
+  {
+    "term": "yellow milkwort",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "bog plant of pine barrens of southeastern United States having spikes of irregular yellow-orange flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow mombin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tropical American tree having edible yellow fruit"
+      }
+    ]
+  },
+  {
+    "term": "yellow mombin tree",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tropical American tree having edible yellow fruit"
+      }
+    ]
+  },
+  {
+    "term": "yellow mountain saxifrage",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tufted evergreen perennial having ciliate leaves and yellow corymbose flowers often spotted orange"
+      }
+    ]
+  },
+  {
+    "term": "yellow nutgrass",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European sedge having small edible nutlike tubers"
+      }
+    ]
+  },
+  {
+    "term": "yellow oak",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "medium to large deciduous timber tree of the eastern United States and southeastern Canada having dark outer bark and yellow inner bark used for tanning; broad five-lobed leaves are bristle-tipped"
+      }
+    ]
+  },
+  {
+    "term": "yellow ocher",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "pigment consisting of a limonite mixed with clay and silica"
+      }
+    ]
+  },
+  {
+    "term": "yellow ochre",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "pigment consisting of a limonite mixed with clay and silica"
+      }
+    ]
+  },
+  {
+    "term": "yellow oleander",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tropical American shrub or small tree having glossy dark green leaves and fragrant saffron yellow to orange or peach- colored flowers; all parts highly poisonous"
+      }
+    ]
+  },
+  {
+    "term": "yellow pages",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a telephone directory or section of a directory (usually printed on yellow paper) where business products and services are listed alphabetically by field along with classified advertising"
+      }
+    ]
+  },
+  {
+    "term": "yellow paper daisy",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Australian plant naturalized in Spain having flowers of lemon yellow to deep gold; the frequent choice of those who love dried flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow parilla",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a woody vine of eastern North America having large oval leaves and small white flowers and purple to blue-black fruits"
+      }
+    ]
+  },
+  {
+    "term": "yellow pea",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "western United States bushy herb having yellow pea-like flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow perch",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "North American perch"
+      }
+    ]
+  },
+  {
+    "term": "yellow peril",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the threat to Western civilization said to arise from the power of Asiatic peoples"
+      }
+    ]
+  },
+  {
+    "term": "yellow pimpernel",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "trailing European evergreen with yellow flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow pine",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of various pines having yellow wood"
+      }
+    ]
+  },
+  {
+    "term": "yellow pitcher plant",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "pitcher plant of southeastern United States having erect yellow trumpet-shaped pitchers with wide mouths and erect lids"
+      }
+    ]
+  },
+  {
+    "term": "yellow pond lily",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common water lily of eastern and central North America, having broad leaves and globe-shaped yellow flowers; in sluggish fresh or slightly brackish water"
+      }
+    ]
+  },
+  {
+    "term": "yellow poplar",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "light easily worked wood of a tulip tree; used for furniture and veneer"
+      }
+    ]
+  },
+  {
+    "term": "yellow prussiate of potash",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a cyanide compound that is prepared by the reaction of potassium cyanide with ferrous salts; commonly used by gardeners"
+      }
+    ]
+  },
+  {
+    "term": "yellow race",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an Asian race"
+      }
+    ]
+  },
+  {
+    "term": "yellow river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a major river of Asia in northern China; flows generally eastward into the Yellow Sea; carries large quantities of yellow silt to its delta"
+      }
+    ]
+  },
+  {
+    "term": "yellow rocket",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "noxious cress with yellow flowers; sometimes placed in genus Sisymbrium"
+      }
+    ]
+  },
+  {
+    "term": "yellow root",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "perennial herb of northeastern United States having a thick knotted yellow rootstock and large rounded leaves"
+      }
+    ]
+  },
+  {
+    "term": "yellow salsify",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European perennial naturalized throughout United States having hollow stems with a few long narrow tapered leaves and each bearing a solitary pale yellow flower"
+      }
+    ]
+  },
+  {
+    "term": "yellow sand verbena",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "plant having hemispherical heads of yellow trumpet-shaped flowers; found in coastal dunes from California to British Columbia"
+      }
+    ]
+  },
+  {
+    "term": "yellow sea",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "part of the Pacific off the east coast of Asia"
+      }
+    ]
+  },
+  {
+    "term": "yellow spiny daisy",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "slender perennial of western North America having weakly bristly leaves and yellow flower heads"
+      }
+    ]
+  },
+  {
+    "term": "yellow spot",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of several fungous or viral diseases characterized by yellow spotting on the leaves"
+      }
+    ]
+  },
+  {
+    "term": "yellow spot fungus",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "fungus causing yellow spot (a sugarcane disease in Australia)"
+      }
+    ]
+  },
+  {
+    "term": "yellow spruce",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "medium-sized spruce of eastern North America; chief lumber spruce of the area; source of pulpwood"
+      }
+    ]
+  },
+  {
+    "term": "yellow squash",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of various squash plants grown for their yellow fruits with somewhat elongated necks"
+      }
+    ]
+  },
+  {
+    "term": "yellow star-thistle",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "European weed having a winged stem and hairy leaves; adventive in the eastern United States"
+      }
+    ]
+  },
+  {
+    "term": "yellow sweet clover",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "biennial yellow-flowered Eurasian plant having aromatic leaves used as carminative or flavoring agent; widely cultivated especially as green manure or cover crop"
+      }
+    ]
+  },
+  {
+    "term": "yellow trefoil",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "prostrate European herb with small yellow flowers and curved black pods; naturalized in North America"
+      }
+    ]
+  },
+  {
+    "term": "yellow trumpet",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "pitcher plant of southeastern United States having erect yellow trumpet-shaped pitchers with wide mouths and erect lids"
+      }
+    ]
+  },
+  {
+    "term": "yellow turnip",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the large yellow root of a rutabaga plant used as food"
+      }
+    ]
+  },
+  {
+    "term": "yellow twining snapdragon",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "southwestern United States plant with yellow flowers on stems that twist and twine through other vegetation"
+      }
+    ]
+  },
+  {
+    "term": "yellow vetchling",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "scrambling perennial Eurasian wild pea having yellowish flowers and compressed seed pods; cultivated for forage"
+      }
+    ]
+  },
+  {
+    "term": "yellow warbler",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yellow-throated American wood warbler"
+      }
+    ]
+  },
+  {
+    "term": "yellow water flag",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "common yellow-flowered iris of Europe and North Africa, naturalized in United States and often cultivated"
+      }
+    ]
+  },
+  {
+    "term": "yellow water lily",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a water lily with yellow flowers"
+      }
+    ]
+  },
+  {
+    "term": "yellow watercress",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "annual or biennial cress growing in damp places sometimes used in salads or as a potherb; troublesome weed in some localities"
+      }
+    ]
+  },
+  {
+    "term": "yellow woman",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "offensive term for an Asian woman"
+      }
+    ]
+  },
+  {
+    "term": "yellowbelly marmot",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "heavy-bodied yellowish-brown marmot of rocky areas of western North America"
+      }
+    ]
+  },
+  {
+    "term": "yellowbird",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yellow-throated American wood warbler"
+      }
+    ]
+  },
+  {
+    "term": "yellowcake",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an impure mixture of uranium oxides obtained during the processing of uranium ore"
+      }
+    ]
+  },
+  {
+    "term": "yellowfin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "may reach 400 pounds; worldwide in tropics"
+      }
+    ]
+  },
+  {
+    "term": "yellowfin croaker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a fish of the Pacific coast of North America"
+      }
+    ]
+  },
+  {
+    "term": "yellowfin mojarra",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "popular panfish from Bermuda and Gulf of Mexico to Brazil"
+      }
+    ]
+  },
+  {
+    "term": "yellowfin tuna",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "may reach 400 pounds; worldwide in tropics"
+      }
+    ]
+  },
+  {
+    "term": "yellowhammer",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "large flicker of eastern North America with a red neck and yellow undersurface to wings and tail"
+      }
+    ]
+  },
+  {
+    "term": "yellowish brown",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a medium to dark tan color"
+      }
+    ]
+  },
+  {
+    "term": "yellowish green",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a shade of green tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellowish pink",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a shade of pink tinged with yellow"
+      }
+    ]
+  },
+  {
+    "term": "yellowknife",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a town in the Northwest Territories in northern Canada on the Great Slave Lake"
+      }
+    ]
+  },
+  {
+    "term": "yellowlegs",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "either of two North American shorebird with yellow legs"
+      }
+    ]
+  },
+  {
+    "term": "yellowness",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yellow color or pigment; the chromatic color resembling the hue of sunflowers or ripe lemons"
+      }
+    ]
+  },
+  {
+    "term": "yellowstone",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a tributary of the Missouri River that flows through the Yellowstone National Park"
+      }
+    ]
+  },
+  {
+    "term": "yellowstone national park",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the first national park in the United States; located in the border area between Wyoming and Montana and Idaho; spectacular wilderness; famous for Old Faithful geyser and for buffalo and bears"
+      }
+    ]
+  },
+  {
+    "term": "yellowstone river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a tributary of the Missouri River that flows through the Yellowstone National Park"
+      }
+    ]
+  },
+  {
+    "term": "yellowtail",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "superior food fish of the tropical Atlantic and Caribbean with broad yellow stripe along the sides and on the tail"
+      }
+    ]
+  },
+  {
+    "term": "yellowtail flounder",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "flesh of American flounder having a yellowish tail"
+      }
+    ]
+  },
+  {
+    "term": "yellowtail snapper",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "superior food fish of the tropical Atlantic and Caribbean with broad yellow stripe along the sides and on the tail"
+      }
+    ]
+  },
+  {
+    "term": "yellowthroat",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "small olive-colored American warblers with yellow breast and throat"
+      }
+    ]
+  },
+  {
+    "term": "yellowwood",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the yellow wood of any of various yellowwood trees"
+      }
+    ]
+  },
+  {
+    "term": "yellowwood tree",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of various trees having yellowish wood or yielding a yellow extract"
+      }
+    ]
+  },
+  {
+    "term": "yelp",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sharp high-pitched cry (especially by a dog)"
+      },
+      {
+        "pos": "verb",
+        "def": "bark in a high-pitched tone; \"the puppies yelped\""
+      }
+    ]
+  },
+  {
+    "term": "yelping",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sharp high-pitched cry (especially by a dog)"
+      }
+    ]
+  },
+  {
+    "term": "yemen",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a republic on the southwestern shores of the Arabian Peninsula on the Indian Ocean; formed in 1990"
+      }
+    ]
+  },
+  {
+    "term": "yemeni fils",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "100 Yemeni fils are worth one Yemeni rial"
+      }
+    ]
+  },
+  {
+    "term": "yemeni monetary unit",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "monetary unit in Yemen"
+      }
+    ]
+  },
+  {
+    "term": "yemeni rial",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the basic unit of money in Yemen; equal to 100 fils"
+      }
+    ]
+  },
+  {
+    "term": "yen",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a yearning for something or to do something"
+      },
+      {
+        "pos": "verb",
+        "def": "have a desire for something or someone who is not present; \"She ached for a cigarette\"; \"I am pining for my lover\""
+      }
+    ]
+  },
+  {
+    "term": "yenisei",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Russian river in Siberia; rises in mountains near the Mongolian border and flows generally northward into the Kara Sea"
+      }
+    ]
+  },
+  {
+    "term": "yenisei-samoyed",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the Uralic language spoken by the Yeniseian"
+      }
+    ]
+  },
+  {
+    "term": "yenisei river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Russian river in Siberia; rises in mountains near the Mongolian border and flows generally northward into the Kara Sea"
+      }
+    ]
+  },
+  {
+    "term": "yeniseian",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of one of the groups living in the Yenisei river valley in western Siberia"
+      }
+    ]
+  },
+  {
+    "term": "yenisey",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Russian river in Siberia; rises in mountains near the Mongolian border and flows generally northward into the Kara Sea"
+      }
+    ]
+  },
+  {
+    "term": "yenisey river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Russian river in Siberia; rises in mountains near the Mongolian border and flows generally northward into the Kara Sea"
+      }
+    ]
+  },
+  {
+    "term": "yenta",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(Yiddish) a vulgar shrew; a shallow coarse termagant"
+      }
+    ]
+  },
+  {
+    "term": "yeoman",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "officer in the (ceremonial) bodyguard of the British monarch"
+      }
+    ]
+  },
+  {
+    "term": "yeoman of the guard",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "officer in the (ceremonial) bodyguard of the British monarch"
+      }
+    ]
+  },
+  {
+    "term": "yeomanry",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "class of small freeholders who cultivated their own land"
+      }
+    ]
+  },
+  {
+    "term": "yerba buena",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "trailing perennial evergreen herb of northwestern United States with small white flowers; used medicinally"
+      }
+    ]
+  },
+  {
+    "term": "yerba mansa",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "stoloniferous herb of southwestern United States and Mexico having a pungent rootstock and small spicate flowers with white bracts suggesting an anemone"
+      }
+    ]
+  },
+  {
+    "term": "yerba santa",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "viscid evergreen shrub of western United States with white to deep lilac flowers; the sticky aromatic leaves are used in treating bronchial and pulmonary illnesses"
+      }
+    ]
+  },
+  {
+    "term": "yerevan",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "capital of Armenia"
+      }
+    ]
+  },
+  {
+    "term": "yerkes",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States psychologist who studied the intelligence of primates (1876-1956)"
+      }
+    ]
+  },
+  {
+    "term": "yersin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "French bacteriologist born in Switzerland; was a student of Pasteur; discovered the plague bacillus (1863-1943)"
+      }
+    ]
+  },
+  {
+    "term": "yersinia pestis",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a bacillus bacterium that causes the plague; aerosolized bacteria can be used as a bioweapon"
+      }
+    ]
+  },
+  {
+    "term": "yerupaja",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a mountain peak in the Andes in Peru (21,709 feet high)"
+      }
+    ]
+  },
+  {
+    "term": "yerwa-maiduguri",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a city in northeastern Nigeria; an agricultural trading center"
+      }
+    ]
+  },
+  {
+    "term": "yes",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an affirmative; \"I was hoping for a yes\""
+      }
+    ]
+  },
+  {
+    "term": "yes-man",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person of unquestioning obedience"
+      }
+    ]
+  },
+  {
+    "term": "yes-no question",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a question that can be answered by yes or no"
+      }
+    ]
+  },
+  {
+    "term": "yeshiva",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an academy for the advanced study of Jewish texts (primarily the Talmud)"
+      }
+    ]
+  },
+  {
+    "term": "yeshivah",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "an academy for the advanced study of Jewish texts (primarily the Talmud)"
+      }
+    ]
+  },
+  {
+    "term": "yesteryear",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the time that has elapsed; \"forget the past\""
+      }
+    ]
+  },
+  {
+    "term": "yeti",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a large hairy humanoid creature said to live in the Himalayas"
+      }
+    ]
+  },
+  {
+    "term": "yevgeni aleksandrovich yevtushenko",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Russian poet who expressed the feelings of the post-Stalinist generation (born in 1933)"
+      }
+    ]
+  },
+  {
+    "term": "yevgeni yevtushenko",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Russian poet who expressed the feelings of the post-Stalinist generation (born in 1933)"
+      }
+    ]
+  },
+  {
+    "term": "yevtushenko",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Russian poet who expressed the feelings of the post-Stalinist generation (born in 1933)"
+      }
+    ]
+  },
+  {
+    "term": "yew",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "wood of a yew; especially the durable fine-grained light brown or red wood of the English yew valued for cabinetwork and archery bows"
+      }
+    ]
+  },
+  {
+    "term": "yew family",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "sometimes classified as member of order Taxales"
+      }
+    ]
+  },
+  {
+    "term": "yezo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the second largest of the four main islands of Japan; to the north of Honshu"
+      }
+    ]
+  },
+  {
+    "term": "ygdrasil",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(Norse mythology) a huge ash tree whose roots and branches hold the earth and Heaven and Hell together"
+      }
+    ]
+  },
+  {
+    "term": "yggdrasil",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(Norse mythology) a huge ash tree whose roots and branches hold the earth and Heaven and Hell together"
+      }
+    ]
+  },
+  {
+    "term": "yhvh",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH"
+      }
+    ]
+  },
+  {
+    "term": "yhwh",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a name for the God of the Old Testament as transliterated from the Hebrew consonants YHVH"
+      }
+    ]
+  },
+  {
+    "term": "yi",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Loloish language"
+      }
+    ]
+  },
+  {
+    "term": "yib",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1024 zebibytes or 2^80 bytes"
+      }
+    ]
+  },
+  {
+    "term": "yibit",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1024 zebibits or 2^80 bits"
+      }
+    ]
+  },
+  {
+    "term": "yid",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(ethnic slur) offensive term for a Jew"
+      }
+    ]
+  },
+  {
+    "term": "yiddish",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a dialect of High German including some Hebrew and other words; spoken in Europe as a vernacular by many Jews; written"
+      }
+    ]
+  },
+  {
+    "term": "yield",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "production of a certain amount"
+      },
+      {
+        "pos": "verb",
+        "def": "be the cause or source of; \"He gave me a lot of trouble\"; \"Our meeting afforded much interesting information\""
+      }
+    ]
+  },
+  {
+    "term": "yielder",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person who yields or surrenders"
+      }
+    ]
+  },
+  {
+    "term": "yin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the dark negative feminine principle in Chinese dualistic cosmology; \"the interaction of yin and yang maintains the harmony of the universe\""
+      }
+    ]
+  },
+  {
+    "term": "yip",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sharp high-pitched cry (especially by a dog)"
+      },
+      {
+        "pos": "verb",
+        "def": "bark in a high-pitched tone; \"the puppies yelped\""
+      }
+    ]
+  },
+  {
+    "term": "yips",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "nervous tension that causes an athlete to fail (especially causes golfers to miss short putts); \"to avoid the yips he changed his style of putting\""
+      }
+    ]
+  },
+  {
+    "term": "yisrael",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Jewish republic in southwestern Asia at eastern end of Mediterranean; formerly part of Palestine"
+      }
+    ]
+  },
+  {
+    "term": "ylang-ylang",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "evergreen Asian tree with aromatic greenish-yellow flowers yielding a volatile oil; widely grown in the tropics as an ornamental"
+      }
+    ]
+  },
+  {
+    "term": "ylem",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(cosmology) the original matter that (according to the big bang theory) existed before the formation of the chemical elements"
+      }
+    ]
+  },
+  {
+    "term": "ymir",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(Norse mythology) the primeval giant slain by Odin and his brothers and from whose body they created the world: the sea from his blood; the earth from his flesh; the mountains from his bones; the sky from his skull"
+      }
+    ]
+  },
+  {
+    "term": "yo-yo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a toy consisting of a spool that is reeled up and down on a string by motions of the hand"
+      }
+    ]
+  },
+  {
+    "term": "yob",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a cruel and brutal fellow"
+      }
+    ]
+  },
+  {
+    "term": "yobbo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a cruel and brutal fellow"
+      }
+    ]
+  },
+  {
+    "term": "yobibit",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1024 zebibits or 2^80 bits"
+      }
+    ]
+  },
+  {
+    "term": "yobibyte",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1024 zebibytes or 2^80 bytes"
+      }
+    ]
+  },
+  {
+    "term": "yobo",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a cruel and brutal fellow"
+      }
+    ]
+  },
+  {
+    "term": "yodel",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a songlike cry in which the voice fluctuates rapidly between the normal voice and falsetto"
+      },
+      {
+        "pos": "verb",
+        "def": "sing by changing register; sing by yodeling; \"The Austrians were yodeling in the mountains\""
+      }
+    ]
+  },
+  {
+    "term": "yodeling",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "singing by changing back and forth between the chest voice and a falsetto"
+      }
+    ]
+  },
+  {
+    "term": "yodeller",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a singer who changes register rapidly (popular is Swiss folk songs)"
+      }
+    ]
+  },
+  {
+    "term": "yodh",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the 10th letter of the Hebrew alphabet"
+      }
+    ]
+  },
+  {
+    "term": "yoga",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Hindu discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion"
+      }
+    ]
+  },
+  {
+    "term": "yogacara",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "one of the main traditions of Mahayana Buddhism; holds that the mind is real but that objects are just ideas or states of consciousness"
+      }
+    ]
+  },
+  {
+    "term": "yoghourt",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a custard-like food made from curdled milk"
+      }
+    ]
+  },
+  {
+    "term": "yoghurt",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a custard-like food made from curdled milk"
+      }
+    ]
+  },
+  {
+    "term": "yogi",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States baseball player (born 1925)"
+      }
+    ]
+  },
+  {
+    "term": "yogi berra",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States baseball player (born 1925)"
+      }
+    ]
+  },
+  {
+    "term": "yogurt",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a custard-like food made from curdled milk"
+      }
+    ]
+  },
+  {
+    "term": "yoke",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "fabric comprising a fitted part at the top of a garment"
+      },
+      {
+        "pos": "verb",
+        "def": "become joined or linked together"
+      }
+    ]
+  },
+  {
+    "term": "yokel",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a person who is not very intelligent or interested in culture"
+      }
+    ]
+  },
+  {
+    "term": "yoko ono",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States musician (born in Japan) who married John Lennon and collaborated with him on recordings (born in 1933)"
+      }
+    ]
+  },
+  {
+    "term": "yokohama",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "port city on southeastern Honshu in central Japan"
+      }
+    ]
+  },
+  {
+    "term": "yokuts",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Penutian language spoken by the Yokuts in the San Joaquin Valley"
+      }
+    ]
+  },
+  {
+    "term": "yolk",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the yellow spherical part of an egg that is surrounded by the albumen"
+      }
+    ]
+  },
+  {
+    "term": "yolk sac",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "membranous structure that functions as the circulatory system in mammalian embryos until the heart becomes functional"
+      }
+    ]
+  },
+  {
+    "term": "yom kippur",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(Judaism) a solemn and major fast day on the Jewish calendar; 10th of Tishri; its observance is one of the requirements of the Mosaic law"
+      }
+    ]
+  },
+  {
+    "term": "yom kippur war",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Egypt and Syria attacked Israel in October 1973 (on Yom Kippur); Israel counterattacked and drove the Syrians back and crossed the Suez Canal into Egypt"
+      }
+    ]
+  },
+  {
+    "term": "yore",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "time long past"
+      }
+    ]
+  },
+  {
+    "term": "york",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the English royal house (a branch of the Plantagenet line) that reigned from 1461 to 1485; its emblem was a white rose"
+      }
+    ]
+  },
+  {
+    "term": "yorkshire",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a former large county in northern England; in 1974 it was divided into three smaller counties"
+      }
+    ]
+  },
+  {
+    "term": "yorkshire fog",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tall European perennial grass having a velvety stem; naturalized in United States and used for forage"
+      }
+    ]
+  },
+  {
+    "term": "yorkshire pudding",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "light puffy bread made of a puff batter and traditionally baked in the pan with roast beef"
+      }
+    ]
+  },
+  {
+    "term": "yorkshire terrier",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "very small breed having a long glossy coat of bluish-grey and tan"
+      }
+    ]
+  },
+  {
+    "term": "yorktown",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a historic village in southeastern Virginia to the north of Newport News; site of the last battle of the American Revolution"
+      }
+    ]
+  },
+  {
+    "term": "yoruba",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of a West African people living chiefly in southwestern Nigeria"
+      }
+    ]
+  },
+  {
+    "term": "yosemite",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a series of waterfalls in Yosemite National Park in California; is reduced to a trickle for part of each year"
+      }
+    ]
+  },
+  {
+    "term": "yosemite falls",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a series of waterfalls in Yosemite National Park in California; is reduced to a trickle for part of each year"
+      }
+    ]
+  },
+  {
+    "term": "yosemite national park",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a national park in California famous for its waterfalls and rock formations"
+      }
+    ]
+  },
+  {
+    "term": "yosemite toad",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "of high Sierra Nevada meadows and forest borders"
+      }
+    ]
+  },
+  {
+    "term": "yottabit",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1000 zettabits or 10^24 bits"
+      }
+    ]
+  },
+  {
+    "term": "yottabyte",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a unit of information equal to 1000 zettabytes or 10^24 bytes"
+      }
+    ]
+  },
+  {
+    "term": "you-drive",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a rented car; \"she picked up a hire car at the airport and drove to her hotel\""
+      }
+    ]
+  },
+  {
+    "term": "young's modulus",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a coefficient of elasticity applicable to the stretching of a wire"
+      }
+    ]
+  },
+  {
+    "term": "young bird",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a bird that is still young"
+      }
+    ]
+  },
+  {
+    "term": "young buck",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a teenager or a young adult male"
+      }
+    ]
+  },
+  {
+    "term": "young carnivore",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the young of certain carnivorous mammals such as the bear or wolf or lion"
+      }
+    ]
+  },
+  {
+    "term": "young fish",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a fish that is young"
+      }
+    ]
+  },
+  {
+    "term": "young girl",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a girl or young woman who is unmarried"
+      }
+    ]
+  },
+  {
+    "term": "young lady",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young woman; \"a young lady of 18\""
+      }
+    ]
+  },
+  {
+    "term": "young mammal",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any immature mammal"
+      }
+    ]
+  },
+  {
+    "term": "young man",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a teenager or a young adult male"
+      }
+    ]
+  },
+  {
+    "term": "young person",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young person (especially a young man or boy)"
+      }
+    ]
+  },
+  {
+    "term": "young turk",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of one or more of the insurgent groups in Turkey in the late 19th century who rebelled against the absolutism of Ottoman rule"
+      }
+    ]
+  },
+  {
+    "term": "young woman",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young woman; \"a young lady of 18\""
+      }
+    ]
+  },
+  {
+    "term": "youngness",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the opposite of oldness"
+      }
+    ]
+  },
+  {
+    "term": "youngster",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young person of either sex; \"she writes books for children\"; \"they're just kids\"; \"`tiddler' is a British term for youngster\""
+      }
+    ]
+  },
+  {
+    "term": "youngstown",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a city in northeast Ohio"
+      }
+    ]
+  },
+  {
+    "term": "younker",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young person (especially a young man or boy)"
+      }
+    ]
+  },
+  {
+    "term": "youth",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young person (especially a young man or boy)"
+      }
+    ]
+  },
+  {
+    "term": "youth-on-age",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "vigorous perennial herb with flowers in erect racemes and having young plants develop at the junction of a leaf blade and the leafstalk"
+      }
+    ]
+  },
+  {
+    "term": "youth crusade",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "political or religious or social reform movement or agitation consisting chiefly of young people"
+      }
+    ]
+  },
+  {
+    "term": "youth culture",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "young adults (a generational unit) considered as a cultural class or subculture"
+      }
+    ]
+  },
+  {
+    "term": "youth gang",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a gang whose members are teenagers"
+      }
+    ]
+  },
+  {
+    "term": "youth hostel",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "inexpensive supervised lodging (especially for youths on bicycling trips)"
+      }
+    ]
+  },
+  {
+    "term": "youth movement",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "political or religious or social reform movement or agitation consisting chiefly of young people"
+      }
+    ]
+  },
+  {
+    "term": "youth subculture",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a minority youth culture whose distinctiveness depended largely on the social class and ethnic background of its members; often characterized by its adoption of a particular music genre"
+      }
+    ]
+  },
+  {
+    "term": "youthfulness",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the freshness and vitality characteristic of a young person"
+      }
+    ]
+  },
+  {
+    "term": "yowl",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a very loud utterance (like the sound of an animal); \"his bellow filled the hallway\""
+      },
+      {
+        "pos": "verb",
+        "def": "cry loudly, as of animals; \"The coyotes were howling in the desert\""
+      }
+    ]
+  },
+  {
+    "term": "ypres",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "battle in World War I (1917); an Allied offensive which eventually failed because tanks bogged down in the waterlogged soil of Flanders; Germans introduced mustard gas which interfered with the Allied artillery"
+      }
+    ]
+  },
+  {
+    "term": "yquem",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a sweet white French wine"
+      }
+    ]
+  },
+  {
+    "term": "yr",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a period of time containing 365 (or 366) days; \"she is 4 years old\"; \"in the year 1920\""
+      }
+    ]
+  },
+  {
+    "term": "ytterbite",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a mineral that is a source of rare earths; consists of silicates of iron and beryllium and cerium and yttrium and erbium"
+      }
+    ]
+  },
+  {
+    "term": "ytterbium",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a soft silvery metallic element; a rare earth of the lanthanide series; it occurs in gadolinite and monazite and xenotime"
+      }
+    ]
+  },
+  {
+    "term": "yttrium",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a silvery metallic element that is common in rare-earth minerals; used in magnesium and aluminum alloys"
+      }
+    ]
+  },
+  {
+    "term": "yuan",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the basic unit of money in China"
+      }
+    ]
+  },
+  {
+    "term": "yuan dynasty",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the imperial dynasty of China from 1279 to 1368"
+      }
+    ]
+  },
+  {
+    "term": "yucatan",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a state of Mexico on the northern part of the Yucatan Peninsula"
+      }
+    ]
+  },
+  {
+    "term": "yucatan peninsula",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a peninsula in Central America extending into the Gulf of Mexico between the Bay of Campeche and the Caribbean Sea"
+      }
+    ]
+  },
+  {
+    "term": "yucatec",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of the Mayan people of the Yucatan peninsula in Mexico"
+      }
+    ]
+  },
+  {
+    "term": "yucateco",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of the Mayan people of the Yucatan peninsula in Mexico"
+      }
+    ]
+  },
+  {
+    "term": "yucca",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "any of several evergreen plants of the genus Yucca having usually tall stout stems and a terminal cluster of white flowers; warmer regions of North America"
+      }
+    ]
+  },
+  {
+    "term": "yucca aloifolia",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a stiff yucca with a short trunk; found in the southern United States and tropical America; has rigid spine-tipped leaves and clusters of white flowers"
+      }
+    ]
+  },
+  {
+    "term": "yucca baccata",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tall yucca of the southwestern United States and Mexico having a woody stem and stiff swordlike pointed leaves and a large cluster of white flowers"
+      }
+    ]
+  },
+  {
+    "term": "yucca brevifolia",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a large branched arborescent yucca of southwestern United States having short leaves and clustered greenish white flowers"
+      }
+    ]
+  },
+  {
+    "term": "yucca carnerosana",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "arborescent yucca of southwestern United States and northern Mexico with sword-shaped leaves and white flowers"
+      }
+    ]
+  },
+  {
+    "term": "yucca elata",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "tall arborescent yucca of southwestern United States"
+      }
+    ]
+  },
+  {
+    "term": "yucca filamentosa",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yucca with long stiff leaves having filamentlike appendages"
+      }
+    ]
+  },
+  {
+    "term": "yucca glauca",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yucca of west central United States having a clump of basal grasslike leaves and a central stalk with a terminal raceme of small whitish flowers"
+      }
+    ]
+  },
+  {
+    "term": "yucca gloriosa",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yucca of southeastern United States similar to the Spanish bayonets but with shorter trunk and smoother leaves"
+      }
+    ]
+  },
+  {
+    "term": "yucca smalliana",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yucca of southern United States having a clump of basal grasslike leaves and a central stalk with a terminal raceme of small whitish flowers"
+      }
+    ]
+  },
+  {
+    "term": "yucca whipplei",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "yucca of southwestern United States and Mexico with a tall spike of creamy white flowers"
+      }
+    ]
+  },
+  {
+    "term": "yue",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the dialect of Chinese spoken in Canton and neighboring provinces and in Hong Kong and elsewhere outside China"
+      }
+    ]
+  },
+  {
+    "term": "yue dialect",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the dialect of Chinese spoken in Canton and neighboring provinces and in Hong Kong and elsewhere outside China"
+      }
+    ]
+  },
+  {
+    "term": "yugoslavia",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a mountainous republic in southeastern Europe bordering on the Adriatic Sea; formed from two of the six republics that made up Yugoslavia until 1992; Serbia and Montenegro were known as the Federal Republic of Yugoslavia until 2003 when they adopted the name of the Union of Serbia and Montenegro"
+      }
+    ]
+  },
+  {
+    "term": "yugoslavian dinar",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the basic unit of money in Yugoslavia"
+      }
+    ]
+  },
+  {
+    "term": "yugoslavian monetary unit",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "monetary unit in Yugoslavia"
+      }
+    ]
+  },
+  {
+    "term": "yukawa",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Japanese mathematical physicist who proposed that nuclear forces are mediated by massive particles called mesons which are analogous to the photon in mediating electromagnetic forces (1907-1981)"
+      }
+    ]
+  },
+  {
+    "term": "yukon",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a North American river that flows westward from the Yukon Territory through central Alaska to the Bering Sea"
+      }
+    ]
+  },
+  {
+    "term": "yukon river",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a North American river that flows westward from the Yukon Territory through central Alaska to the Bering Sea"
+      }
+    ]
+  },
+  {
+    "term": "yukon territory",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a territory in northwestern Canada; site of the Klondike gold rush in the 1890s"
+      }
+    ]
+  },
+  {
+    "term": "yukon time",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "standard time in the 9th time zone west of Greenwich, reckoned at the 135th meridian west; used in Hawaii and most of Alaska"
+      }
+    ]
+  },
+  {
+    "term": "yukon white birch",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Alaskan birch with white to pale brown bark"
+      }
+    ]
+  },
+  {
+    "term": "yule",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "period extending from Dec. 24 to Jan. 6"
+      }
+    ]
+  },
+  {
+    "term": "yule log",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "large log traditionally burned at Christmas"
+      }
+    ]
+  },
+  {
+    "term": "yuletide",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "period extending from Dec. 24 to Jan. 6"
+      }
+    ]
+  },
+  {
+    "term": "yuma",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a member of the North American Indian people of Arizona and adjacent Mexico and California"
+      }
+    ]
+  },
+  {
+    "term": "yunnan",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a province of southern China"
+      }
+    ]
+  },
+  {
+    "term": "yunnan province",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a province of southern China"
+      }
+    ]
+  },
+  {
+    "term": "yuppie",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a young upwardly mobile professional individual; a well-paid middle-class professional who works in a city and has a luxurious life style"
+      }
+    ]
+  },
+  {
+    "term": "yurak-samoyed",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a Uralic language spoken by a Samoyed of northern Siberia"
+      }
+    ]
+  },
+  {
+    "term": "yuri alekseyevich gagarin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Soviet cosmonaut who in 1961 was the first person to travel in space (1934-1968)"
+      }
+    ]
+  },
+  {
+    "term": "yuri gagarin",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "Soviet cosmonaut who in 1961 was the first person to travel in space (1934-1968)"
+      }
+    ]
+  },
+  {
+    "term": "yurt",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "a circular domed dwelling that is portable and self-supporting; originally used by nomadic Mongol and Turkic people of central Asia but now used as inexpensive alternative or temporary housing"
+      }
+    ]
+  },
+  {
+    "term": "yves tanguy",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "United States surrealist painter (born in France) (1900-1955)"
+      }
+    ]
+  },
+  {
+    "term": "yack away",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "talk incessantly and tiresomely"
+      }
+    ]
+  },
+  {
+    "term": "yammer",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "cry loudly, as of animals; \"The coyotes were howling in the desert\""
+      }
+    ]
+  },
+  {
+    "term": "yap away",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "talk incessantly and tiresomely"
+      }
+    ]
+  },
+  {
+    "term": "yarn-dye",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "dye (fabric) before it is spun"
+      }
+    ]
+  },
+  {
+    "term": "yaup",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "emit long loud cries; \"wail in self-pity\"; \"howl with sorrow\""
+      }
+    ]
+  },
+  {
+    "term": "yawp",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "make a raucous noise"
+      }
+    ]
+  },
+  {
+    "term": "yearn",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "desire strongly or persistently"
+      }
+    ]
+  },
+  {
+    "term": "yield up",
+    "definitions": [
+      {
+        "pos": "verb",
+        "def": "surrender, as a result of pressure or force"
+      }
+    ]
+  }
+]

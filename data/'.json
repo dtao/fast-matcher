@@ -1,0 +1,38 @@
+[
+  {
+    "term": "'tween",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "in between; \"two houses with a tree between\""
+      }
+    ]
+  },
+  {
+    "term": "'tween decks",
+    "definitions": [
+      {
+        "pos": "adverb",
+        "def": "in the space between decks, on a ship"
+      }
+    ]
+  },
+  {
+    "term": "'hood",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "(slang) a neighborhood"
+      }
+    ]
+  },
+  {
+    "term": "'s gravenhage",
+    "definitions": [
+      {
+        "pos": "noun",
+        "def": "the site of the royal residence and the de facto capital in the western part of the Netherlands; seat of the International Court of Justice"
+      }
+    ]
+  }
+]
