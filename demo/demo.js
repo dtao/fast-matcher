@@ -12,11 +12,17 @@ app.controller('DemoController', function($scope, $http, $q) {
   });
 
   $q.all(requests).then(function() {
-    $scope.words = words;
+    $scope.loaded = true;
+    $scope.wordCount = words.length;
 
     var matcher = new FastMatcher(words, { selector: 'term' });
 
     $scope.$watch('search', function() {
+      if (!$scope.search) {
+        $scope.matchingEntries = [];
+        return;
+      }
+
       $scope.matchingEntries = matcher.getMatches($scope.search);
     });
   });

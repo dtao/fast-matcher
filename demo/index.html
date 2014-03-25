@@ -3,33 +3,59 @@
 
 <head>
     <title>FastMatch Demo</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css" />
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
     <script src="../fastMatcher.js"></script>
     <script src="demo.js"></script>
+
+    <style>
+        .container { margin-top: 15px; width: 100%; }
+        .definition-list { display: table; padding-left: 0; }
+        .definition-list li { display: table-row; }
+        .definition-list li .part-of-speech,
+        .definition-list li .definition {
+            display: table-cell;
+            padding-right: 1em;
+        }
+        .part-of-speech:before { content: "("; }
+        .part-of-speech:after { content: ")"; }
+    </style>
 </head>
 
 <body ng-controller="DemoController">
-    <input type="text" ng-model="search" />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <p class="lead">Start typing a word.</p>
+                <input type="text" class="form-control" ng-model="search" />
+            </div>
 
-    <p>{{(words.length | number) || 'Loading'}} words</p>
+            <div class="col-lg-6 col-md-6">
+                <p class="lead">
+                    <span class="text-muted" ng-if="!loaded">Loading words...</span>
+                    <span ng-if="loaded">{{(wordCount | number)}} words loaded</span>
+                </p>
 
-    <dl>
-        <div ng-repeat="entry in matchingEntries">
-            <dt>{{entry.term}}</dt>
-            <dd ng-if="entry.definitions.length === 1">
-                <span class="part-of-speech">{{entry.definitions[0].pos}}</span>
-                <span class="definition">{{entry.definitions[0].def}}</span>
-            </dd>
+                <dl class="list-group">
+                    <div class="list-group-item" ng-repeat="entry in matchingEntries">
+                        <dt class="list-group-item-heading">{{entry.term}}</dt>
+                        <dd ng-if="entry.definitions.length === 1">
+                            <span class="part-of-speech">{{entry.definitions[0].pos}}</span>
+                            <span class="definition">{{entry.definitions[0].def}}</span>
+                        </dd>
 
-            <dd ng-if="entry.definitions.length > 1">
-                <ol>
-                    <li ng-repeat="definition in entry.definitions">
-                        <dd>{{definition.pos}}: {{definition.def}}</dd>
-                    </li>
-                </ol>
-            </dd>
-        </div>
-    </dl>
+                        <dd ng-if="entry.definitions.length > 1">
+                            <ol class="definition-list">
+                                <li ng-repeat="definition in entry.definitions">
+                                    <span class="part-of-speech">{{definition.pos}}</span>
+                                    <span class="definition">{{definition.def}}</span>
+                                </li>
+                            </ol>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+    </div>
 </body>
 
 </html>
