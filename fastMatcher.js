@@ -17,11 +17,22 @@
    *   return new FastMatcher([], { selector: property }).createSelector();
    * }
    *
-   * createSelector()('foo'); // => 'foo'
-   * createSelector('x')({ x: 'bar'}); // => 'bar'
+   * createSelector()('foo');
+   * // => 'foo'
+   *
+   * createSelector('x')({ x: 'bar'});
+   * // => 'bar'
+   *
+   * createSelector(function(str) { return str.slice(1); })('foo');
+   * // => 'oo'
    */
   FastMatcher.prototype.createSelector = function createSelector() {
     var selector = this.options.selector;
+
+    if (typeof selector === 'function') {
+      return selector;
+    }
+
     if (selector) {
       return function(x) { return x[selector]; };
     }
