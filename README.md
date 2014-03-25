@@ -5,7 +5,7 @@ Most autocomplete implementations I've seen do full-list scanning and simple (in
 The standard performance optimizations seem to be complex: indexing, caching, *tries*, etc.
 
 This library is a simpler and **much faster** "back end" for autocompletes. It isn't as
-full-featured, which means it can make some assumptions for really big perf wins:
+full-featured, which means it can make some assumptions for really big perf wins, namely:
 
 1. It only does prefix matching.
 
@@ -15,16 +15,28 @@ say they're using a dictionary; they aren't going to type "n" to search for *ana
 
 See for yourself how fast this is in practice: the [demo](http://danieltao.com/fast-matcher) uses
 this library to provide autocomplete results from [WordNet](http://wordnet.princeton.edu/), with
-close to 150,000 words. Results are instantaneous.
+close to 150,000 words. Results are pretty much instantaneous.
 
 ## Usage
 
 ```javascript
-var FastMatcher = require('fast-matcher');
+// ----- constructor
 
-var matcher = new FastMatcher([{x:'foo'},{x:'bar'},{x:'baz'}], {
-  /* options */
+var matcher = new FastMatcher(list, options);
 
+// ----- getting matches
+
+var matches = matcher.getMatches(prefix);
+
+// ----- full example
+
+var list = [
+  { x: 'foo' },
+  { x: 'bar' },
+  { x: 'baz' }
+];
+
+var matcher = new FastMatcher(list, {
   // the property to base matches on (omit for a simple list of strings)
   selector: 'x',
 
@@ -36,5 +48,9 @@ var matcher = new FastMatcher([{x:'foo'},{x:'bar'},{x:'baz'}], {
 });
 
 matcher.getMatches('ba');
-// => [{x:'bar'},{x:'baz'}]
+// => [{ x: 'bar' }, { x: 'baz' }]
 ```
+
+## Has this been done before?
+
+Probably. I don't know.
