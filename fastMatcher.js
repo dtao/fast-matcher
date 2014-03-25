@@ -38,7 +38,7 @@ FastMatcher.prototype.getMatches = function getMatches(prefix) {
     prefix = prefix.toLowerCase();
   }
 
-  var limit    = this.options.limit || 25,
+  var limit    = Number(this.options.limit || 25),
       selector = this.selector;
 
   var list    = this.list,
