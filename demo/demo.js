@@ -14,8 +14,7 @@ app.controller('DemoController', function($scope, $http, $q) {
   $q.all(requests).then(function() {
     $scope.loaded = true;
     $scope.wordCount = words.length;
-
-    var matcher = new FastMatcher(words, { selector: 'term' });
+    $scope.matcher = new FastMatcher(words, { selector: 'term' });
 
     $scope.$watch('search', function() {
       if (!$scope.search) {
@@ -23,7 +22,7 @@ app.controller('DemoController', function($scope, $http, $q) {
         return;
       }
 
-      $scope.matchingEntries = matcher.getMatches($scope.search);
+      $scope.matchingEntries = $scope.matcher.getMatches($scope.search);
     });
   });
 

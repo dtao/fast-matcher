@@ -34,6 +34,10 @@ FastMatcher.prototype.createSelector = function createSelector() {
  * fm.getMatches('a'); // => ['ab', 'ac']
  */
 FastMatcher.prototype.getMatches = function getMatches(prefix) {
+  if (this.options.caseInsensitive) {
+    prefix = prefix.toLowerCase();
+  }
+
   var limit    = this.options.limit || 25,
       selector = this.selector;
 
@@ -42,7 +46,22 @@ FastMatcher.prototype.getMatches = function getMatches(prefix) {
       index   = this.findIndex(prefix);
 
   matches.length = 0;
-  while (index < list.length && matches.length < limit && startsWith(selector(list[index]), prefix)) {
+
+  var item;
+  while (index < list.length) {
+    if (matches.length === limit) {
+      break;
+    }
+
+    item = selector(list[index]);
+    if (this.options.caseInsensitive) {
+      item = item.toLowerCase();
+    }
+
+    if (!startsWith(item, prefix)) {
+      break;
+    }
+
     matches.push(list[index++]);
   }
 
@@ -53,17 +72,24 @@ FastMatcher.prototype.findIndex = function findIndex(prefix) {
   var list     = this.list,
       selector = this.selector,
       lower    = 0,
-      upper    = list.length,
-      i;
+      upper    = list.length;
 
+  var i, value;
   while (lower < upper) {
     i = (lower + upper) >>> 1;
-    if (compare(selector(list[i]), prefix) === -1) {
+
+    value = selector(list[i]);
+    if (this.options.caseInsensitive) {
+      value = value.toLowerCase();
+    }
+
+    if (compare(value, prefix) === -1) {
       lower = i + 1;
     } else {
       upper = i;
     }
   }
+
   return lower;
 };
 
