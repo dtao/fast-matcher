@@ -92,8 +92,6 @@
         matches = this.matches,
         index   = this.findIndex(prefix);
 
-    matches.length = 0;
-
     var items = [], item;
     while (index < list.length) {
       if (matches.length === limit) {
@@ -116,7 +114,7 @@
       items.sort(function(x, y) { return compare(x.i, y.i); });
     }
 
-    matches.push.apply(matches, items.map(function(x) { return x.val; }));
+    populate(matches, items.map(function(x) { return x.val; }));
 
     return matches;
   };
@@ -145,6 +143,23 @@
 
     return lower;
   };
+
+  /**
+   * @private
+   * @example
+   * var arr = [];
+   *
+   * populate(arr, [1, 2, 3]); // arr == [1, 2, 3]
+   * populate(arr, []);        // arr == []
+   * populate(arr, ['foo']);   // arr == ['foo']
+   */
+  function populate(array, elements) {
+    var count = elements.length;
+    array.length = count;
+    for (var i = 0; i < count; ++i) {
+      array[i] = elements[i];
+    }
+  }
 
   /**
    * @private
