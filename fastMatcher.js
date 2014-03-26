@@ -121,13 +121,16 @@
   /**
    * @private
    * @example
+   * startsWith('', 'a');     // => false
+   * startsWith('a', 'a');    // => true
+   * startsWith('aa', 'a');   // => true
    * startsWith('foo', 'f');  // => true
    * startsWith('bar', 'f');  // => false
    * startsWith('foo', 'fo'); // => true
    * startsWith('foo', 'o');  // => false
    */
   function startsWith(string, prefix) {
-    return string.lastIndexOf(prefix, prefix.length) === 0;
+    return string.lastIndexOf(prefix, prefix.length - 1) === 0;
   }
 
   if (typeof module === 'object' && (module && module.exports)) {
