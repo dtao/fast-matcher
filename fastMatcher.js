@@ -79,6 +79,9 @@
    *
    * getMatches(['ac', 'ab', 'b', 'aa'], 'a', { preserveOrder: true });
    * // => ['ac', 'ab', 'aa']
+   *
+   * getMatches(['aa', 'ab', 'ac'], 'a', { limit: 2 });
+   * // => ['aa', 'ab']
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
@@ -89,12 +92,11 @@
         selector = this.selector;
 
     var list    = this.list,
-        matches = this.matches,
         index   = this.findIndex(prefix);
 
     var items = [], item;
     while (index < list.length) {
-      if (matches.length === limit) {
+      if (items.length === limit) {
         break;
       }
 
@@ -114,9 +116,9 @@
       items.sort(function(x, y) { return compare(x.i, y.i); });
     }
 
-    populate(matches, items.map(function(x) { return x.val; }));
+    populate(this.matches, items.map(function(x) { return x.val; }));
 
-    return matches;
+    return this.matches;
   };
 
   FastMatcher.prototype.findIndex = function findIndex(prefix) {
