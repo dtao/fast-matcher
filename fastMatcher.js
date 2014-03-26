@@ -93,6 +93,9 @@
    *
    * getMatches([{x:'a',y:'b'},{x:'b',y:'a'}], 'a', { selector: ['x', 'y'] });
    * // => [{x:'a',y:'b'},{x:'b',y:'a'}]
+   *
+   * getMatches([{x:'a'},{y:'a'}], 'a', { selector: ['x', 'y'] });
+   * // => [{x:'a'},{y:'a'}]
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
@@ -181,7 +184,7 @@
     }
 
     if (selector) {
-      return function(x) { return x[selector]; };
+      return function(x) { return x[selector] || ''; };
     }
 
     return function(x) { return x; };
