@@ -96,6 +96,9 @@
    *
    * getMatches([{x:'a'},{y:'a'}], 'a', { selector: ['x', 'y'] });
    * // => [{x:'a'},{y:'a'}]
+   *
+   * getMatches([{x:'a',y:'a'}], 'a', { selector: ['x', 'y'] });
+   * // => [{x:'a',y:'a'}]
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
@@ -137,7 +140,7 @@
       items.sort(function(x, y) { return compare(x.i, y.i); });
     }
 
-    populate(this.matches, items.map(function(x) { return x.val; }));
+    populate(this.matches, getValues(items));
 
     return this.matches;
   };
@@ -205,6 +208,23 @@
     for (var i = 0; i < count; ++i) {
       array[i] = elements[i];
     }
+  }
+
+  /**
+   * @private
+   * @example
+   * getValues([{i:0,val:'a'},{i:0,val:'a'},{i:1,val:'b'}]);
+   * // => ['a', 'b']
+   */
+  function getValues(items) {
+    var indexes = {}, values = [];
+    items.forEach(function(item) {
+      if (!indexes[item.i]) {
+        indexes[item.i] = true;
+        values.push(item.val);
+      }
+    });
+    return values;
   }
 
   /**
