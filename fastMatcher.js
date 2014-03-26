@@ -8,23 +8,28 @@
    * new FastMatcher(list); // list == ['b', 'a', 'c']
    */
   function FastMatcher(list, options) {
-    this.list     = this.wrapList(list);
+    var source    = this.source = this.wrapList(list);
     this.options  = options || {};
     this.matches  = this.options.matches || [];
 
-    var selector = this.selector = this.createSelector();
-    this.list.sort(function(x, y) {
-      return compare(selector(x.val), selector(y.val));
+    var selectors = this.selectors = this.createSelectors();
+    this.lists = selectors.map(function(selector) {
+      var list = source.slice(0);
+      list.sort(function(x, y) {
+        return compare(selector(x.val), selector(y.val));
+      });
+      list.selector = selector;
+      return list;
     });
   }
 
   /**
    * @example
    * function wrapList(list) {
-   *   return new FastMatcher(list).list;
+   *   return new FastMatcher([]).wrapList(list);
    * }
    *
-   * wrapList([5, 3, 4]); // => [{i:1,val:3},{i:2,val:4},{i:0,val:5}]
+   * wrapList([5, 3, 4]); // => [{i:0,val:5},{i:1,val:3},{i:2,val:4}]
    */
   FastMatcher.prototype.wrapList = function wrapList(list) {
     return list.map(function(e, i) { return { i: i, val: e }; });
@@ -32,37 +37,40 @@
 
   /**
    * @example
-   * function createSelector(property) {
-   *   return new FastMatcher([], { selector: property }).createSelector();
+   * function createSelectors(selector) {
+   *   return new FastMatcher([], { selector: selector }).createSelectors();
    * }
    *
-   * createSelector()('foo');
+   * createSelectors()[0]('foo');
    * // => 'foo'
    *
-   * createSelector('x')({ x: 'bar'});
+   * createSelectors('x')[0]({ x: 'bar'});
    * // => 'bar'
    *
-   * createSelector(function(str) { return str.slice(1); })('foo');
+   * createSelectors(function(str) { return str.slice(1); })[0]('foo');
    * // => 'oo'
+   *
+   * createSelectors(['x', 'y'])[0]({ x: 'foo', y: 'bar' });
+   * // => 'foo'
+   *
+   * createSelectors(['x', 'y'])[1]({ x: 'foo', y: 'bar' });
+   * // => 'bar'
    */
-  FastMatcher.prototype.createSelector = function createSelector() {
-    var baseSelector = this.getBaseSelector(this.options.selector);
+  FastMatcher.prototype.createSelectors = function createSelectors() {
+    var options   = this.options,
+        selectors = options.selector;
 
-    return this.options.caseInsensitive ?
-      function(x) { return baseSelector(x).toLowerCase(); } :
-      baseSelector;
-  };
-
-  FastMatcher.prototype.getBaseSelector = function(selector) {
-    if (typeof selector === 'function') {
-      return selector;
+    if (!(selectors instanceof Array)) {
+      selectors = [selectors];
     }
 
-    if (selector) {
-      return function(x) { return x[selector]; };
-    }
+    return selectors.map(function(selector) {
+      var baseSelector = getBaseSelector(selector);
 
-    return function(x) { return x; };
+      return options.caseInsensitive ?
+        function(x) { return baseSelector(x).toLowerCase(); } :
+        baseSelector;
+    });
   };
 
   /**
@@ -82,34 +90,44 @@
    *
    * getMatches(['aa', 'ab', 'ac'], 'a', { limit: 2 });
    * // => ['aa', 'ab']
+   *
+   * getMatches([{x:'a',y:'b'},{x:'b',y:'a'}], 'a', { selector: ['x', 'y'] });
+   * // => [{x:'a',y:'b'},{x:'b',y:'a'}]
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
       prefix = prefix.toLowerCase();
     }
 
-    var limit    = Number(this.options.limit || 25),
-        selector = this.selector;
+    var limit = Number(this.options.limit || 25),
+        lists = this.lists,
+        items = [],
+        list, index, item;
 
-    var list    = this.list,
-        index   = this.findIndex(prefix);
-
-    var items = [], item;
-    while (index < list.length) {
+    for (var i = 0; i < lists.length; ++i) {
       if (items.length === limit) {
         break;
       }
 
-      item = selector(list[index].val);
-      if (this.options.caseInsensitive) {
-        item = item.toLowerCase();
-      }
+      list = lists[i];
+      index = this.findIndex(list, prefix);
 
-      if (!startsWith(item, prefix)) {
-        break;
-      }
+      while (index < list.length) {
+        if (items.length === limit) {
+          break;
+        }
 
-      items.push(list[index++]);
+        item = list.selector(list[index].val);
+        if (this.options.caseInsensitive) {
+          item = item.toLowerCase();
+        }
+
+        if (!startsWith(item, prefix)) {
+          break;
+        }
+
+        items.push(list[index++]);
+      }
     }
 
     if (this.options.preserveOrder) {
@@ -121,9 +139,8 @@
     return this.matches;
   };
 
-  FastMatcher.prototype.findIndex = function findIndex(prefix) {
-    var list     = this.list,
-        selector = this.selector,
+  FastMatcher.prototype.findIndex = function findIndex(list, prefix) {
+    var selector = list.selector,
         lower    = 0,
         upper    = list.length;
 
@@ -145,6 +162,30 @@
 
     return lower;
   };
+
+  /**
+   * @private
+   * @example
+   * getBaseSelector()('foo');
+   * // => 'foo'
+   *
+   * getBaseSelector('x')({ x: 'bar'});
+   * // => 'bar'
+   *
+   * getBaseSelector(function(str) { return str.slice(1); })('foo');
+   * // => 'oo'
+   */
+  function getBaseSelector(selector) {
+    if (typeof selector === 'function') {
+      return selector;
+    }
+
+    if (selector) {
+      return function(x) { return x[selector]; };
+    }
+
+    return function(x) { return x; };
+  }
 
   /**
    * @private
