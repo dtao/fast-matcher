@@ -102,13 +102,18 @@
    *
    * getMatches([{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'}], 'a', { selector: ['x', 'y'], limit: 3 });
    * // => [{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'}]
+   *
+   * getMatches([{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'},{x:'c',y:'a'}], 'a', { selector: ['x', 'y'], limit: 3 });
+   * // => [{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'}]
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
       prefix = prefix.toLowerCase();
     }
 
-    var limit = Number(this.options.limit || 25),
+    var originalLimit = Number(this.options.limit || 25);
+
+    var limit = originalLimit,
         lists = this.lists,
         items = [],
         list, index, item, itemsAdded;
@@ -151,7 +156,7 @@
       items.sort(function(x, y) { return compare(x.i, y.i); });
     }
 
-    populate(this.matches, getValues(items));
+    populate(this.matches, getValues(items, originalLimit));
 
     return this.matches;
   };
@@ -224,17 +229,22 @@
   /**
    * @private
    * @example
-   * getValues([{i:0,val:'a'},{i:0,val:'a'},{i:1,val:'b'}]);
+   * getValues([{i:0,val:'a'},{i:0,val:'a'},{i:1,val:'b'}], 3);
+   * // => ['a', 'b']
+   *
+   * getValues([{i:0,val:'a'},{i:1,val:'b'},{i:2,val:'c'}], 2);
    * // => ['a', 'b']
    */
-  function getValues(items) {
+  function getValues(items, limit) {
     var indexes = {}, values = [];
-    items.forEach(function(item) {
-      if (!indexes[item.i]) {
-        indexes[item.i] = true;
-        values.push(item.val);
+
+    for (var i = 0; values.length < limit && i < items.length; ++i) {
+      if (!indexes[items[i].i]) {
+        indexes[items[i].i] = true;
+        values.push(items[i].val);
       }
-    });
+    }
+
     return values;
   }
 
