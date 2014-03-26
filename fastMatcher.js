@@ -99,6 +99,9 @@
    *
    * getMatches([{x:'a',y:'a'}], 'a', { selector: ['x', 'y'] });
    * // => [{x:'a',y:'a'}]
+   *
+   * getMatches([{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'}], 'a', { selector: ['x', 'y'], limit: 3 });
+   * // => [{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'}]
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
@@ -108,7 +111,7 @@
     var limit = Number(this.options.limit || 25),
         lists = this.lists,
         items = [],
-        list, index, item;
+        list, index, item, itemsAdded;
 
     for (var i = 0; i < lists.length; ++i) {
       if (items.length === limit) {
@@ -117,6 +120,7 @@
 
       list = lists[i];
       index = this.findIndex(list, prefix);
+      itemsAdded = 0;
 
       while (index < list.length) {
         if (items.length === limit) {
@@ -133,7 +137,14 @@
         }
 
         items.push(list[index++]);
+        ++itemsAdded;
       }
+
+      // Say the original limit is 20 and we just found 10 more items. We now
+      // need to increase the effective limit (before removing duplicates) by 10
+      // to account for the maximum possible overlap between the matches found
+      // so far and the matches from the next list.
+      limit += itemsAdded;
     }
 
     if (this.options.preserveOrder) {
