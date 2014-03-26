@@ -34,8 +34,14 @@
    * // => 'oo'
    */
   FastMatcher.prototype.createSelector = function createSelector() {
-    var selector = this.options.selector;
+    var baseSelector = this.getBaseSelector(this.options.selector);
 
+    return this.options.caseInsensitive ?
+      function(x) { return baseSelector(x).toLowerCase(); } :
+      baseSelector;
+  };
+
+  FastMatcher.prototype.getBaseSelector = function(selector) {
     if (typeof selector === 'function') {
       return selector;
     }
@@ -49,9 +55,15 @@
 
   /**
    * @example
-   * var fm = new FastMatcher(['ab', 'ac', 'ba', 'bc']);
+   * function getMatches(list, prefix, options) {
+   *   return new FastMatcher(list, options).getMatches(prefix);
+   * }
    *
-   * fm.getMatches('a'); // => ['ab', 'ac']
+   * getMatches(['aa', 'ab', 'ba', 'bb'], 'a');
+   * // => ['aa', 'ab']
+   *
+   * getMatches(['aa', 'ba', 'AB', 'BB'], 'a', { caseInsensitive: true });
+   * // => ['aa', 'AB']
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
