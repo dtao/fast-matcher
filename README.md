@@ -32,7 +32,7 @@ var list = [
 ];
 
 var matcher = new FastMatcher(list, {
-  // the property to base matches on (omit for a simple list of strings)
+  // the property, or array of properties, to base matches on
   selector: 'x',
 
   // duh, what do you think this does?
