@@ -1,7 +1,14 @@
 (function() {
 
+  /**
+   * @example
+   * var list = ['b', 'a', 'c'];
+   *
+   * // constructing a FastMatcher instance should not modify the list passed in
+   * new FastMatcher(list); // list == ['b', 'a', 'c']
+   */
   function FastMatcher(list, options) {
-    this.list     = list;
+    this.list     = list.slice(0);
     this.options  = options || {};
     this.matches  = this.options.matches || [];
 
