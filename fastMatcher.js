@@ -8,15 +8,27 @@
    * new FastMatcher(list); // list == ['b', 'a', 'c']
    */
   function FastMatcher(list, options) {
-    this.list     = list.slice(0);
+    this.list     = this.wrapList(list);
     this.options  = options || {};
     this.matches  = this.options.matches || [];
 
     var selector = this.selector = this.createSelector();
     this.list.sort(function(x, y) {
-      return compare(selector(x), selector(y));
+      return compare(selector(x.val), selector(y.val));
     });
   }
+
+  /**
+   * @example
+   * function wrapList(list) {
+   *   return new FastMatcher(list).list;
+   * }
+   *
+   * wrapList([5, 3, 4]); // => [{i:1,val:3},{i:2,val:4},{i:0,val:5}]
+   */
+  FastMatcher.prototype.wrapList = function wrapList(list) {
+    return list.map(function(e, i) { return { i: i, val: e }; });
+  };
 
   /**
    * @example
@@ -64,6 +76,9 @@
    *
    * getMatches(['aa', 'ba', 'AB', 'BB'], 'a', { caseInsensitive: true });
    * // => ['aa', 'AB']
+   *
+   * getMatches(['ac', 'ab', 'b', 'aa'], 'a', { preserveOrder: true });
+   * // => ['ac', 'ab', 'aa']
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
@@ -79,13 +94,13 @@
 
     matches.length = 0;
 
-    var item;
+    var items = [], item;
     while (index < list.length) {
       if (matches.length === limit) {
         break;
       }
 
-      item = selector(list[index]);
+      item = selector(list[index].val);
       if (this.options.caseInsensitive) {
         item = item.toLowerCase();
       }
@@ -94,8 +109,14 @@
         break;
       }
 
-      matches.push(list[index++]);
+      items.push(list[index++]);
     }
+
+    if (this.options.preserveOrder) {
+      items.sort(function(x, y) { return compare(x.i, y.i); });
+    }
+
+    matches.push.apply(matches, items.map(function(x) { return x.val; }));
 
     return matches;
   };
@@ -110,7 +131,7 @@
     while (lower < upper) {
       i = (lower + upper) >>> 1;
 
-      value = selector(list[i]);
+      value = selector(list[i].val);
       if (this.options.caseInsensitive) {
         value = value.toLowerCase();
       }
