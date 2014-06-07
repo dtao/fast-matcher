@@ -8,23 +8,20 @@
    * new FastMatcher(list); // list == ['b', 'a', 'c']
    */
   function FastMatcher(list, options) {
-    var source    = this.source = this.wrapList(list);
-    this.options  = options || {};
-    this.matches  = this.options.matches || [];
+    this.source    = list.slice(0);
+    this.options   = options || {};
+    this.matches   = this.options.matches || [];
+    this.selectors = this.createSelectors();
 
-    var selectors = this.selectors = this.createSelectors();
-    this.lists = selectors.map(function(selector) {
-      var list = source
-        .map(function(e) {
-          return {
-            i: e.i,
-            val: e.val,
-            selectedVal: selector(e.val)
-          };
-        })
-        .filter(function(e) {
-          return !!e.selectedVal;
-        });
+    var source = this.source;
+    this.lists = this.selectors.map(function(selector) {
+      var list = source.map(function(e, i) {
+        return {
+          i: i,
+          val: e,
+          selectedVal: selector(e)
+        };
+      });
 
       list.sort(function(x, y) {
         return compare(x.selectedVal, y.selectedVal);
@@ -33,18 +30,6 @@
       return list;
     });
   }
-
-  /**
-   * @example
-   * function wrapList(list) {
-   *   return new FastMatcher([]).wrapList(list);
-   * }
-   *
-   * wrapList([5, 3, 4]); // => [{i:0,val:5},{i:1,val:3},{i:2,val:4}]
-   */
-  FastMatcher.prototype.wrapList = function wrapList(list) {
-    return list.map(function(e, i) { return { i: i, val: e }; });
-  };
 
   /**
    * @example
