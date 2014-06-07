@@ -41,6 +41,9 @@ var matcher = new FastMatcher(list, {
   // return matches in their original order
   preserveOrder: true,
 
+  // whether to match against any word (not just first) for each string
+  anyWord: false,
+
   // how many matches to find at a time
   limit: 25
 });

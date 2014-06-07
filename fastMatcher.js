@@ -13,22 +13,57 @@
     this.matches   = this.options.matches || [];
     this.selectors = this.createSelectors();
 
-    var source = this.source;
-    this.lists = this.selectors.map(function(selector) {
+    var source = this.source,
+        options = this.options,
+        lists = [];
+
+    this.selectors.forEach(function(selector) {
+      var maxWords = 0;
+
       var list = source.map(function(e, i) {
-        return {
+        var item = {
           i: i,
           val: e,
           selectedVal: selector(e)
         };
+
+        if (options.anyWord) {
+          item.words = item.selectedVal.split(/\s+/);
+          maxWords = Math.max(maxWords, item.words.length);
+        }
+
+        return item;
       });
 
-      list.sort(function(x, y) {
-        return compare(x.selectedVal, y.selectedVal);
-      });
+      if (options.anyWord) {
+        for (var i = 0; i < maxWords; ++i) {
+          lists.push(
+            list
+              .filter(function(item) {
+                return i < item.words.length;
+              })
+              .map(function(item) {
+                return {
+                  i: item.i,
+                  val: item.val,
+                  selectedVal: item.words[i]
+                };
+              })
+              .sort(function(x, y) {
+                return compare(x.selectedVal, y.selectedVal);
+              }));
+        }
 
-      return list;
+      } else {
+        list.sort(function(x, y) {
+          return compare(x.selectedVal, y.selectedVal);
+        });
+
+        lists.push(list);
+      }
     });
+
+    this.lists = lists;
   }
 
   /**
@@ -101,6 +136,12 @@
    *
    * getMatches([{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'},{x:'c',y:'a'}], 'a', { selector: ['x', 'y'], limit: 3 });
    * // => [{x:'a',y:'a'},{x:'a',y:'b'},{x:'b',y:'a'}]
+   *
+   * getMatches(['a', 'a b', 'a c', 'b', 'c a b'], 'b', { anyWord: true });
+   * // => ['b', 'a b', 'c a b']
+   *
+   * getMatches(['a', 'a b', 'a c', 'b', 'c a b'], 'b', { anyWord: true, preserveOrder: true });
+   * // => ['a b', 'b', 'c a b']
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
