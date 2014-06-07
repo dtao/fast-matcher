@@ -14,11 +14,22 @@
 
     var selectors = this.selectors = this.createSelectors();
     this.lists = selectors.map(function(selector) {
-      var list = source.slice(0);
+      var list = source
+        .map(function(e) {
+          return {
+            i: e.i,
+            val: e.val,
+            selectedVal: selector(e.val)
+          };
+        })
+        .filter(function(e) {
+          return !!e.selectedVal;
+        });
+
       list.sort(function(x, y) {
-        return compare(selector(x.val), selector(y.val));
+        return compare(x.selectedVal, y.selectedVal);
       });
-      list.selector = selector;
+
       return list;
     });
   }
@@ -116,7 +127,7 @@
     var limit = originalLimit,
         lists = this.lists,
         items = [],
-        list, index, item, itemsAdded;
+        list, index, value, itemsAdded;
 
     for (var i = 0; i < lists.length; ++i) {
       if (items.length === limit) {
@@ -132,12 +143,12 @@
           break;
         }
 
-        item = list.selector(list[index].val);
+        value = list[index].selectedVal;
         if (this.options.caseInsensitive) {
-          item = item.toLowerCase();
+          value = value.toLowerCase();
         }
 
-        if (!startsWith(item, prefix)) {
+        if (!startsWith(value, prefix)) {
           break;
         }
 
@@ -162,15 +173,14 @@
   };
 
   FastMatcher.prototype.findIndex = function findIndex(list, prefix) {
-    var selector = list.selector,
-        lower    = 0,
+    var lower    = 0,
         upper    = list.length;
 
     var i, value;
     while (lower < upper) {
       i = (lower + upper) >>> 1;
 
-      value = selector(list[i].val);
+      value = list[i].selectedVal;
       if (this.options.caseInsensitive) {
         value = value.toLowerCase();
       }
