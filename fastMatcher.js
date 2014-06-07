@@ -18,7 +18,7 @@
         lists = [];
 
     this.selectors.forEach(function(selector) {
-      var maxWords = 0;
+      var maxSegments = 0;
 
       var list = source.map(function(e, i) {
         var item = {
@@ -28,25 +28,25 @@
         };
 
         if (options.anyWord) {
-          item.words = item.selectedVal.split(/\s+/);
-          maxWords = Math.max(maxWords, item.words.length);
+          item.segments = getSubstrings(item.selectedVal);
+          maxSegments = Math.max(maxSegments, item.segments.length);
         }
 
         return item;
       });
 
       if (options.anyWord) {
-        for (var i = 0; i < maxWords; ++i) {
+        for (var i = 0; i < maxSegments; ++i) {
           lists.push(
             list
               .filter(function(item) {
-                return i < item.words.length;
+                return i < item.segments.length;
               })
               .map(function(item) {
                 return {
                   i: item.i,
                   val: item.val,
-                  selectedVal: item.words[i]
+                  selectedVal: item.segments[i]
                 };
               })
               .sort(function(x, y) {
@@ -142,6 +142,9 @@
    *
    * getMatches(['a', 'a b', 'a c', 'b', 'c a b'], 'b', { anyWord: true, preserveOrder: true });
    * // => ['a b', 'b', 'c a b']
+   *
+   * getMatches(['a', 'a b', 'c a b'], 'a b', { anyWord: true });
+   * // => ['a b', 'c a b']
    */
   FastMatcher.prototype.getMatches = function getMatches(prefix) {
     if (this.options.caseInsensitive) {
@@ -243,6 +246,29 @@
     }
 
     return function(x) { return x; };
+  }
+
+  /**
+   * @private
+   * @example
+   * getSubstrings('of the night');
+   * // => ['of the night', 'the night', 'night']
+   *
+   * getSubstrings(' foo bar ');
+   * // => ['foo bar ', 'bar ']
+   */
+  function getSubstrings(string) {
+    string = string.replace(/^\s+/, '');
+
+    var substrings = [string],
+        startOfWord = /\s[^\s]/g,
+        match;
+
+    while (match = startOfWord.exec(string)) {
+      substrings.push(string.substring(match.index + 1));
+    }
+
+    return substrings;
   }
 
   /**
