@@ -1,6 +1,6 @@
 {
   "name": "fast-matcher",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Find matches fast",
   "main": "fastMatcher.js",
   "scripts": {
